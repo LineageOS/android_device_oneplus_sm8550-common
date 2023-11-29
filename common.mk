@@ -112,6 +112,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
+    android.frameworks.stats-V1-ndk.vendor \
     android.hardware.camera.common@1.0.vendor \
     android.hardware.camera.device-V1-ndk.vendor \
     android.hardware.camera.metadata-V1-ndk.vendor \
@@ -189,8 +190,8 @@ PRODUCT_PACKAGES += \
     fastbootd
 
 # Fingerprint
-PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.3-service.oplus
+#PRODUCT_PACKAGES += \
+#    android.hardware.biometrics.fingerprint@2.3-service.oplus
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fingerprint.xml
@@ -264,6 +265,7 @@ PRODUCT_PACKAGES += \
 
 # Keymaster
 PRODUCT_PACKAGES += \
+    android.hardware.keymaster-V3-ndk.vendor \
     android.hardware.keymaster@4.1.vendor \
     libkeymaster_messages.vendor
 
