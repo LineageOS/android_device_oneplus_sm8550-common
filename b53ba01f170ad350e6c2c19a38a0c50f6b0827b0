@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5b80cd27_8666e4ab",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-11-29T17:01:41Z",
+      "side": 1,
+      "message": "Still WIP, I did not bump SPL yet on purpose.",
+      "revId": "b53ba01f170ad350e6c2c19a38a0c50f6b0827b0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
