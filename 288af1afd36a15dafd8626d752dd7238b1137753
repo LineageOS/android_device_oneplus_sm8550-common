@@ -1,4 +1,22 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b13f8985_27b8602b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29669
+      },
+      "writtenOn": "2023-11-30T05:33:22Z",
+      "side": 1,
+      "message": "I have this adsp library path unknown spamming in my logs, picking this didnt solve, device raphael (Redmi K20 Pro)\n\nE sscrpcd : vendor/qcom/proprietary/commonsys-intf/adsprpc/src/apps_std_imp.c:596:Error 0xffffffff: apps_std getenv failed: ADSP_LIBRARY_PATH Unknown error -1\n\nI sscrpcd : vendor/qcom/proprietary/commonsys-intf/adsprpc/src/apps_std_imp.c:777: Successfully opened file /sys/class/backlight/panel0-backlight/brightness\n\nW sscrpcd : vendor/qcom/proprietary/commonsys-intf/adsprpc/src/fastrpc_apps_user.c:727:Warning: wakelock_control_kernel_pm: kernel does not support PM management (Invalid request code)\n\nE sscrpcd : vendor/qcom/proprietary/commonsys-intf/adsprpc/src/fastrpc_apps_user.c:733: Error 0xffffffff: wakelock_control_kernel_pm PM control failed for domain 2, dev 7 with timeout 5\n\nW sscrpcd : vendor/qcom/proprietary/commonsys-intf/adsprpc/src/fastrpc_apps_user.c:727:Warning: wakelock_control_kernel_pm: kernel does not support PM management (Invalid request code)\n\nE sscrpcd : vendor/qcom/proprietary/commonsys-intf/adsprpc/src/fastrpc_apps_user.c:733: Error 0xffffffff: wakelock_control_kernel_pm PM control failed for domain 2, dev 7 with timeout 5\n\nW sscrpcd : vendor/qcom/proprietary/commonsys-intf/adsprpc/src/fastrpc_apps_user.c:727:Warning: wakelock_control_kernel_pm: kernel does not support PM management (Invalid request code)\n\nE sscrpcd : vendor/qcom/proprietary/commonsys-intf/adsprpc/src/fastrpc_apps_user.c:733: Error 0xffffffff: wakelock_control_kernel_pm PM control failed for domain 2, dev 7 with timeout 5\n\nW sscrpcd : vendor/qcom/proprietary/commonsys-intf/adsprpc/src/fastrpc_apps_user.c:727:Warning: wakelock_control_kernel_pm: kernel does not support PM management (Invalid request code)\n\nE sscrpcd : vendor/qcom/proprietary/commonsys-intf/adsprpc/src/fastrpc_apps_user.c:733: Error 0xffffffff: wakelock_control_kernel_pm PM control failed for domain 2, dev 7 with timeout 5",
+      "revId": "288af1afd36a15dafd8626d752dd7238b1137753",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ],
   "submitRequirementResults": []
 }
