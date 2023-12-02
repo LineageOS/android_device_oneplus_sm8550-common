@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6b2025dd_657b9685",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2023-12-02T15:02:29Z",
+      "side": 1,
+      "message": "Do you think SXR, QXR, and QVR services are required? They were added back again in OOS 14.",
+      "revId": "a0944863dcfa9db851dcea72e75b91f0c9d47aa8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
