@@ -16,6 +16,24 @@
       "message": "Do you think SXR, QXR, and QVR services are required? They were added back again in OOS 14.",
       "revId": "a0944863dcfa9db851dcea72e75b91f0c9d47aa8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "75498496_e8a85e4d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-12-02T15:12:33Z",
+      "side": 1,
+      "message": "I don\u0027t think so, don\u0027t even know what those services are for.\n\nBy the way, RIL is up at this point. Only fingerprint sensor is dead.",
+      "parentUuid": "6b2025dd_657b9685",
+      "revId": "a0944863dcfa9db851dcea72e75b91f0c9d47aa8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
