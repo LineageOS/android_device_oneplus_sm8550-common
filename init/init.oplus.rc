@@ -22,6 +22,9 @@ on post-fs-data
     mkdir /data/vendor/mmdump/adsp 0777 system system
     chmod 0777 /data/vendor/mmdump/adsp
 
+    # Enable WLAN SSR
+    write /sys/kernel/cnss/recovery 1
+
 on property:ro.boot.prjname=*
     # Display
     setprop ro.separate.soft ${ro.boot.prjname}
