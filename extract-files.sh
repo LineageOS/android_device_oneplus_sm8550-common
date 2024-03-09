@@ -67,6 +67,9 @@ function blob_fixup() {
         odm/etc/camera/CameraHWConfiguration.config)
             sed -i "/SystemCamera = / s/1;/0;/g" "${2}"
             ;;
+        odm/lib64/libextensionlayer.so|vendor/lib64/hw/camera.qcom.so)
+            sed -i "s/ro.product.system.brand/vendor.oplus.camera.gsi/" "${2}"
+            ;;
         product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml)
             sed -i "s/\/my_product/\/product/" "${2}"
             ;;
