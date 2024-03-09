@@ -83,6 +83,9 @@ function blob_fixup() {
             sed -i "/NXPLOG_\w\+_LOGLEVEL/ s/0x03/0x02/" "${2}"
             sed -i "s/NFC_DEBUG_ENABLED=1/NFC_DEBUG_ENABLED=0/" "${2}"
             ;;
+        odm/lib64/libextensionlayer.so | vendor/lib64/hw/camera.qcom.so)
+            sed -i "s/ro.product.system.brand/vendor.oplus.camera.gsi/" "${2}"
+            ;;
     esac
 }
 
