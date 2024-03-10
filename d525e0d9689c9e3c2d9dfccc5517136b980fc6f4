@@ -51,6 +51,24 @@
       "parentUuid": "a8dcb5da_2f57368d",
       "revId": "d525e0d9689c9e3c2d9dfccc5517136b980fc6f4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "708a9637_b1328fa9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 24438
+      },
+      "writtenOn": "2024-03-10T16:18:05Z",
+      "side": 1,
+      "message": "in         odm/etc/camera/CameraHWConfiguration.config there are a lot of optimization for things in the whitelist, after switching to GSI mode, most of the optimization is gone",
+      "parentUuid": "42545d35_51a60d15",
+      "revId": "d525e0d9689c9e3c2d9dfccc5517136b980fc6f4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
