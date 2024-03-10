@@ -69,6 +69,24 @@
       "parentUuid": "42545d35_51a60d15",
       "revId": "d525e0d9689c9e3c2d9dfccc5517136b980fc6f4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0288f2ce_a89fa5a8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-03-10T16:35:35Z",
+      "side": 1,
+      "message": "Correction, one of the cameras is lost indeed.",
+      "parentUuid": "17072c53_124e1936",
+      "revId": "d525e0d9689c9e3c2d9dfccc5517136b980fc6f4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
