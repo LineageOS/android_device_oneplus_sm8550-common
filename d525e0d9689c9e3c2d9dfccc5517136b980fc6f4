@@ -16,6 +16,23 @@
       "message": "AUX camera is gone after this change, plus a bunch of other OPLUS addons",
       "revId": "d525e0d9689c9e3c2d9dfccc5517136b980fc6f4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "17072c53_124e1936",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-03-10T06:53:36Z",
+      "side": 1,
+      "message": "It is not, I still have aux cameras available.",
+      "revId": "d525e0d9689c9e3c2d9dfccc5517136b980fc6f4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
