@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "11613966_82e2e7bf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31578
+      },
+      "writtenOn": "2024-03-23T17:12:50Z",
+      "side": 1,
+      "message": "Confirmed on sony sm8550, A2DP works.",
+      "revId": "aeb1c16a34ff8f3997a82c0b9024c4ab42b42328",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
