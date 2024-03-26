@@ -62,6 +62,13 @@
         </interface>
     </hal>
     <hal format="aidl" optional="true">
+        <name>vendor.oplus.hardware.oplusSensor</name>
+        <interface>
+            <name>ISensorFeature</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
         <name>vendor.oplus.hardware.performance</name>
         <interface>
             <name>IPerformance</name>

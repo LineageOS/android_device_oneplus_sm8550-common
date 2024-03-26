@@ -2551,7 +2551,11 @@ vendor/lib64/libesesbprovision.so
 
 # Sensors
 odm/bin/oplus_sensor_fb
+odm/bin/hw/vendor-oplus-hardware-oplusSensor-V1-service
+odm/etc/init/vendor-oplus-hardware-oplusSensor-V1-service.rc
+odm/etc/vintf/manifest/manifest_oplusSensor_aidl.xml
 odm/lib64/liboplus_service.so
+odm/lib64/vendor.oplus.hardware.oplusSensor-V1-ndk.so
 vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service
 vendor/bin/init.qcom.sensors.sh
 vendor/bin/sensors.qti
