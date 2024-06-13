@@ -375,6 +375,7 @@ PRODUCT_PACKAGES += \
     libjson \
     libqti_vndfwk_detect.vendor \
     libqti_vndfwk_detect_vendor \
+    libsqlite.vendor \
     libvndfwk_detect_jni.qti.vendor \
     libvndfwk_detect_jni.qti_vendor
 
