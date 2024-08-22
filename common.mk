@@ -227,6 +227,11 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.opengles.deqp.level-2022-03-01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.opengles.deqp.level.xml \
     frameworks/native/data/etc/android.software.vulkan.deqp.level-2022-03-01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.vulkan.deqp.level.xml
 
+# GMS
+ifeq ($(WITH_GMS),true)
+GMS_MAKEFILE=gms_64bit_only.mk
+endif
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health-service.qti \
