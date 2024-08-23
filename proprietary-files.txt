@@ -1685,6 +1685,11 @@ vendor/lib64/libesepmconfig.so
 vendor/lib64/vendor.qti.esepowermanager@1.0.so;MODULE_SUFFIX=_vendor
 vendor/lib64/vendor.qti.esepowermanager@1.1.so;MODULE_SUFFIX=_vendor
 
+# eSIM
+odm/bin/hw/vendor.oplus.hardware.esim@1.0-service
+odm/etc/init/esim@1.0-service.rc
+odm/etc/vintf/manifest/manifest_oplus_esim.xml
+
 # EVA
 vendor/etc/eva/facedetection/model3.dat
 vendor/lib64/libcv_common.so
