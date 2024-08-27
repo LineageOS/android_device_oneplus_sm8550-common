@@ -1,4 +1,22 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "533bf165_0338257a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 24
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-08-27T00:38:55Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/q/topic:%22oplus-osense%22",
+      "revId": "a15f3a5b28bdb4a0f8b5e81684bd09c7f74d53c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ],
   "submitRequirementResults": []
 }
