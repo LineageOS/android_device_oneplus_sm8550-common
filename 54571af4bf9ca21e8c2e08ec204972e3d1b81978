@@ -16,6 +16,24 @@
       "message": "Add space after commas?",
       "revId": "54571af4bf9ca21e8c2e08ec204972e3d1b81978",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7fc6d934_f7c04b7f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-08-29T22:18:03Z",
+      "side": 1,
+      "message": "most uses in build/make don\u0027t do that, so i\u0027d stick to no spaces.",
+      "parentUuid": "2079d68d_c686fbee",
+      "revId": "54571af4bf9ca21e8c2e08ec204972e3d1b81978",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
