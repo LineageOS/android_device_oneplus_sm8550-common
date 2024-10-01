@@ -114,9 +114,14 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             sed -Ei "/media_codecs_(google_audio|google_c2|google_telephony|google_video|vendor_audio)/d" "${2}"
             ;;
+        vendor/etc/seccomp_policy/atfwd@2.0.policy|vendor/etc/seccomp_policy/wfdhdcphalservice.policy)
+            [ "$2" = "" ] && return 0
+            grep -q "gettid: 1" "${2}" || echo -e "\ngettid: 1" >> "${2}"
+            ;;
         vendor/etc/seccomp_policy/qwesd@2.0.policy)
             [ "$2" = "" ] && return 0
-            echo "pipe2: 1" >> "${2}"
+            grep -q "gettid: 1" "${2}" || echo -e "\ngettid: 1" >> "${2}"
+            grep -q "pipe2: 1" "${2}" || echo -e "\npipe2: 1" >> "${2}"
             ;;
         vendor/lib64/libqcodec2_core.so)
             [ "$2" = "" ] && return 0
