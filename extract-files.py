@@ -107,7 +107,10 @@ blob_fixups: blob_fixups_user_type = {
         .regex_replace('NFC_DEBUG_ENABLED=1', 'NFC_DEBUG_ENABLED=0'),
     ('vendor/etc/media_codecs_kalama.xml', 'vendor/etc/media_codecs_kalama_vendor.xml'): blob_fixup()
         .regex_replace('.*media_codecs_(google_audio|google_c2|google_telephony|google_video|vendor_audio).*\n', ''),
+    ('vendor/etc/seccomp_policy/atfwd@2.0.policy', 'vendor/etc/seccomp_policy/wfdhdcphalservice.policy'): blob_fixup()
+        .add_line_if_missing('gettid: 1'),
     'vendor/etc/seccomp_policy/qwesd@2.0.policy': blob_fixup()
+        .add_line_if_missing('gettid: 1')
         .add_line_if_missing('pipe2: 1'),
     'vendor/lib64/libqcodec2_core.so': blob_fixup()
         .add_needed('libcodec2_shim.so'),
