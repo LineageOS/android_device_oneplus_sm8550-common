@@ -76,6 +76,11 @@ lib_fixups: lib_fixups_user_type = {
 }
 
 blob_fixups: blob_fixups_user_type = {
+    'odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff': blob_fixup()
+        .add_needed("libshims_oplus_fps_props.so")
+        .replace_needed('android.hardware.biometrics.common-V2-ndk.so', 'android.hardware.biometrics.common-V3-ndk.so')
+        .replace_needed('android.hardware.biometrics.fingerprint-V2-ndk.so', 'android.hardware.biometrics.fingerprint-V3-ndk.so')
+        .replace_needed('android.hardware.keymaster-V3-ndk.so', 'android.hardware.keymaster-V4-ndk.so'),
     'odm/lib64/libAlgoProcess.so': blob_fixup()
         .replace_needed('android.hardware.graphics.common-V3-ndk.so', 'android.hardware.graphics.common-V5-ndk.so'),
     ('odm/lib64/libCOppLceTonemapAPI.so', 'odm/lib64/libCS.so', 'odm/lib64/libSuperRaw.so', 'odm/lib64/libYTCommon.so', 'odm/lib64/libyuv2.so'): blob_fixup()
