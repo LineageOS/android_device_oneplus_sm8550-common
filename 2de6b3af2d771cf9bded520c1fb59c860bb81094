@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5b4afe61_01b5e10e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30416
+      },
+      "writtenOn": "2024-10-11T18:07:46Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/c/LineageOS/android_device_osom_ingot/+/400899\n\nThis change might be relevant here",
+      "revId": "2de6b3af2d771cf9bded520c1fb59c860bb81094",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
