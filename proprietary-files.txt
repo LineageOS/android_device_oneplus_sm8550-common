@@ -1009,7 +1009,7 @@ odm/lib64/libarcsoft_eis_wrapper.so
 odm/lib64/libarcsoft_hdr_denoise_api.so;FIX_SONAME
 odm/lib64/libarcsoft_high_dynamic_range.so
 odm/lib64/libarcsoft_high_dynamic_range_couple_v4.so
-odm/lib64/libarcsoft_high_dynamic_range_v4.so;DISABLE_CHECKELF
+odm/lib64/libarcsoft_high_dynamic_range_v4.so
 odm/lib64/libarcsoft_lensstaindetection.so
 odm/lib64/libarcsoft_long_exposure_capture.so;FIX_SONAME
 odm/lib64/libarcsoft_long_exposure_preview.so;FIX_SONAME
