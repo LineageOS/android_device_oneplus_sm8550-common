@@ -18,6 +18,7 @@ vendor.audio.feature.a2dp_offload.enable=true
 vendor.audio.feature.afe_proxy.enable=true
 vendor.audio.feature.battery_listener.enable=true
 vendor.audio.feature.dmabuf.cma.memory.enable=false
+vendor.audio.feature.handset.profile.disable=false
 vendor.audio.feature.hfp.enable=true
 vendor.audio.feature.kpi_optimize.enable=true
 vendor.audio.hdr.record.enable=false
@@ -106,10 +107,11 @@ persist.sys.fuse.passthrough.enable=true
 
 # Gatekeeper
 vendor.gatekeeper.disable_spu=true
+vendor.gatekeeper.is_security_level_spu=0
 
 # Graphics
 debug.sf.auto_latch_unsignaled=0
-debug.sf.disable_client_composition_cache=1
+debug.sf.disable_client_composition_cache=0
 debug.sf.early.app.duration=13666666
 debug.sf.early.sf.duration=15666666
 debug.sf.earlyGl.app.duration=13666666
@@ -127,7 +129,7 @@ ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
 ro.opengles.version=196610
 ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
-ro.surface_flinger.game_default_frame_rate_override=60
+ro.surface_flinger.game_default_frame_rate_override=120
 ro.surface_flinger.has_HDR_display=true
 ro.surface_flinger.has_wide_color_display=true
 ro.surface_flinger.max_frame_buffer_acquired_buffers=3
@@ -166,6 +168,7 @@ persist.vendor.rcs.singlereg.feature=1
 
 # Sensors
 persist.vendor.sensors.debug.hal=0
+vendor.dynamic_sensor.setup.timeout.ms=2000
 
 # USB
 sys.usb.mtp.batchcancel=1
