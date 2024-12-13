@@ -4,15 +4,6 @@
 -->
 <manifest version="1.0" type="device">
     <hal format="aidl">
-        <name>android.hardware.radio.data</name>
-        <version>1</version>
-        <interface>
-            <name>IRadioData</name>
-            <instance>slot1</instance>
-            <instance>slot2</instance>
-        </interface>
-    </hal>
-    <hal format="aidl">
         <name>android.hardware.radio.messaging</name>
         <version>1</version>
         <interface>
@@ -76,7 +67,7 @@
     </hal>
     <hal format="aidl">
         <name>vendor.qti.hardware.radio.ims</name>
-        <version>9</version>
+        <version>12</version>
         <interface>
             <name>IImsRadio</name>
             <instance>imsradio0</instance>
@@ -94,7 +85,7 @@
     </hal>
     <hal format="aidl">
         <name>vendor.qti.hardware.radio.qtiradio</name>
-        <version>8</version>
+        <version>9</version>
         <interface>
             <name>IQtiRadioStable</name>
             <instance>slot1</instance>
