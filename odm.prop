@@ -6,6 +6,9 @@ ro.vendor.qti.va_odm.support=1
 # Bluetooth
 persist.vendor.bluetooth.modem_nv_support=true
 
+# Camera
+ro.hardware.camera=oemlayer
+
 # Display
 ro.vendor.display.sensortype=2
 vendor.display.enable_rc_support=0
@@ -23,4 +26,4 @@ ro.vendor.oplus.radio.project=1
 ro.vendor.oplus.radio.sar_regionmark=FCC
 
 # SVN
-ro.build.version.svn=59
+ro.build.version.svn=62
