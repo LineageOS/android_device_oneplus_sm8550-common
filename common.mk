@@ -56,7 +56,6 @@ PRODUCT_PACKAGES += \
     libqcomvisualizer \
     libqcomvoiceprocessing \
     libsndcardparser \
-    libtinycompress \
     libvolumelistener \
     sound_trigger.primary.kalama
 
@@ -214,7 +213,6 @@ PRODUCT_COPY_FILES += \
     $(AUDIO_HAL_DIR)/configs/common/codec2/service/1.0/c2audio.vendor.ext-arm64.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/c2audio.vendor.ext-arm64.policy
 
 PRODUCT_PACKAGES += \
-    libavservices_minijail \
     libpalclient
 
 # Memtrack
