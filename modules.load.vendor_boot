@@ -100,7 +100,6 @@ oplus_phoenix.ko
 oplus_kmsg_wb.ko
 horae_shell_temp.ko
 oplus_ipa_thermal.ko
-oplus_mdmfeature.ko
 qpnp-power-on.ko
 nvme-core.ko
 nvme.ko
