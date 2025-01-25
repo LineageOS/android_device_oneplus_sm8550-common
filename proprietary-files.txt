@@ -2029,7 +2029,7 @@ odm/lib64/libQnnHtpV73CalculatorStub.so
 odm/lib64/libQnnHtpV73Stub.so
 odm/lib64/libQnnSaver.so
 odm/lib64/libaiboost.so
-odm/lib64/libaiboost_hexagon.so;DISABLE_CHECKELF
+odm/lib64/libaiboost_hexagon.so
 odm/lib64/libaiboost_qnn_sr.so
 odm/lib64/libaiboost_sr.so
 odm/lib64/libaiboost_te.so
