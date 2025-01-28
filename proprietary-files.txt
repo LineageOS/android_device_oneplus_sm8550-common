@@ -2576,6 +2576,9 @@ vendor/lib64/libvideooptfeature.so
 vendor/lib64/libvideotxr.so
 vendor/lib64/libvideoutils.so
 
+# Vibrator
+vendor/lib64/libaacvibrator.so
+
 # VPP
 vendor/bin/vppservice
 vendor/etc/configstore/vpp.configstore.xml
