@@ -301,6 +301,7 @@ PRODUCT_SHIPPING_API_LEVEL := $(BOARD_SHIPPING_API_LEVEL)
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/oplus \
+    hardware/qcom-caf/bootctrl \
     kernel/oneplus/sm8550 \
     kernel/oneplus/sm8550-modules
 
