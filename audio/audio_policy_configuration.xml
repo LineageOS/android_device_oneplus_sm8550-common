@@ -548,6 +548,9 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <!-- Remote Submix Audio HAL -->
         <xi:include href="/vendor/etc/r_submix_audio_policy_configuration.xml"/>
 
+        <!-- LE Audio HAL -->
+        <xi:include href="/vendor/etc/le_audio_policy_configuration.xml"/>
+
     </modules>
     <!-- End of Modules section -->
 
