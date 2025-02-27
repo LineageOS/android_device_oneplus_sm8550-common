@@ -191,6 +191,8 @@ oplus_ak09970.ko
 sim_detect.ko
 oem_qmi_client.ko
 oplus_gpio.ko
+aw8697.ko
+haptic.ko
 haptic_feedback.ko
 qseecom_proxy.ko
 oplus_nfc.ko
