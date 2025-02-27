@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "042800bd_afd48ea9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-02-27T22:59:03Z",
+      "side": 1,
+      "message": "Why isn\u0027t this set in hardware/qcom-caf/common/BoardConfigQcom.mk?",
+      "revId": "8d13692e793cc083757fd09723c56c1c6d89a7d8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
