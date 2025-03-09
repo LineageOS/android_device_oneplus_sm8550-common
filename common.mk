@@ -390,6 +390,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     vendor/qcom/opensource/vibrator/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
 
+$(call soong_config_set,OPLUS_RICHTAP_VIBRATOR_HAL,EFFECTS_LIB,//vendor/oneplus/sm8550-common:libaacvibrator)
+
 # WiFi
 PRODUCT_PACKAGES += \
     android.hardware.wifi-service \
