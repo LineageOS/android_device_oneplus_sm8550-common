@@ -189,7 +189,6 @@ vendor/lib64/vendor.qti.hardware.fm@1.0.so
 
 # Camera
 odm/bin/hw/vendor.oplus.hardware.cammidasservice-V1-service
-odm/bin/occe_create
 odm/etc/camera/AiFace.json
 odm/etc/camera/M_FaceAttribute_RGB_age_gender_1.7.1.model.hardcode
 odm/etc/camera/anc/fusion_model
@@ -930,7 +929,6 @@ odm/etc/camera/wide.bin
 odm/etc/init/init.camera_process.rc
 odm/etc/init/init.camera_upate.rc
 odm/etc/init/init.odm.camera.provider.override.rc
-odm/etc/init/occe_create.rc
 odm/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc
 odm/etc/vintf/manifest/manifest_oplus_camera_rfi.xml
 odm/etc/vintf/manifest/manifest_oplus_cameraextension_aidl.xml
