@@ -92,7 +92,6 @@ DEVICE_MANIFEST_FILE := \
     hardware/qcom-caf/sm8550/audio/primary-hal/configs/common/manifest_non_qmaa_extn.xml
 
 ODM_MANIFEST_FILES := \
-    $(COMMON_PATH)/manifest_odm.xml \
     $(COMMON_PATH)/network_manifest_odm.xml
 
 # Init Boot
