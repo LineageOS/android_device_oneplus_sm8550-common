@@ -362,7 +362,7 @@ PRODUCT_PACKAGES += \
 
 # Touch
 PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.oplus
+    vendor.lineage.touch-service.oplus
 
 $(call soong_config_set,OPLUS_LINEAGE_TOUCH_HAL,INCLUDE_DIR,$(LOCAL_PATH)/touch/include)
 
@@ -419,7 +419,6 @@ DEVICE_MANIFEST_FILE := \
     $(LOCAL_PATH)/network_manifest.xml
 
 ODM_MANIFEST_FILES := \
-    $(LOCAL_PATH)/manifest_odm.xml \
     $(LOCAL_PATH)/network_manifest_odm.xml
 
 # WiFi
