@@ -62,12 +62,17 @@ nvmem_qfprom.ko
 nxp-nci.ko
 oplus_ak09970.ko
 oplus_audio_tfa98xx_v6.ko
+oplus_bsp_ir_core.ko
 oplus_bsp_ist_down.ko
 oplus_bsp_ist_up.ko
+oplus_bsp_kookong_ir_spi.ko
 oplus_bsp_mxm_down.ko
 oplus_bsp_mxm_up.ko
 oplus_bsp_rfcablemonitor.ko
+oplus_bsp_tp_gt9916.ko
+oplus_bsp_tp_gt9966.ko
 oplus_bsp_tp_tcm_oncell.ko
+oplus_bsp_tp_tcm_S3910.ko
 oplus_chg_symbol.ko
 oplus_chg_v2.ko
 oplus_gpio.ko
@@ -144,6 +149,7 @@ stm_p_ost.ko
 stub_dlkm.ko
 swr_dmic_dlkm.ko
 swr_haptics_dlkm.ko
+synaptics_tcm2.ko
 sysmon_subsystem_stats.ko
 sys_pm_vx.ko
 tz_log_dlkm.ko
