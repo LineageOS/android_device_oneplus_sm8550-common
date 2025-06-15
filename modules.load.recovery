@@ -115,6 +115,7 @@ stm_console.ko
 stm_ftrace.ko
 stm_p_basic.ko
 stm_p_ost.ko
+synaptics_tcm2.ko
 synx-driver.ko
 sysmon_subsystem_stats.ko
 sys_pm_vx.ko
