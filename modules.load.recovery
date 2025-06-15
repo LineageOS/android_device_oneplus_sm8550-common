@@ -53,7 +53,10 @@ oplus_bsp_ist_up.ko
 oplus_bsp_mxm_down.ko
 oplus_bsp_mxm_up.ko
 oplus_bsp_rfcablemonitor.ko
+oplus_bsp_tp_gt9916.ko
+oplus_bsp_tp_gt9966.ko
 oplus_bsp_tp_tcm_oncell.ko
+oplus_bsp_tp_tcm_S3910.ko
 oplus_chg_symbol.ko
 oplus_chg_v2.ko
 oplus_gpio.ko
@@ -115,6 +118,7 @@ stm_console.ko
 stm_ftrace.ko
 stm_p_basic.ko
 stm_p_ost.ko
+synaptics_tcm2.ko
 synx-driver.ko
 sysmon_subsystem_stats.ko
 sys_pm_vx.ko
