@@ -54,6 +54,7 @@ oplus_bsp_fw_update.ko
 oplus_bsp_sensor_feedback.ko
 oplus_bsp_tp_comon.ko
 oplus_bsp_tp_custom.ko
+oplus_bsp_tp_goodix_comnon.ko
 oplus_bsp_tp_notify.ko
 oplus_bsp_tp_syna_comnon.ko
 oplus_bsp_tri_key.ko
