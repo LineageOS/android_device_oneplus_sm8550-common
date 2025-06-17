@@ -2630,9 +2630,6 @@ odm/firmware/ufs/SAMSUNG-KLUFG8RHDB-B0E1.bin
 odm/firmware/ufs/SAMSUNG-KLUFG8RHHD-B0G1.bin
 odm/firmware/ufs/move_target_ufs_fw_to_oplusreserve1.sh
 
-# Vibrator
-vendor/lib64/libaacvibrator.so
-
 # Video
 vendor/lib64/libstreamparser.so
 vendor/lib64/libvideooptfeature.so
