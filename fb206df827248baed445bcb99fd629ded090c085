@@ -16,6 +16,24 @@
       "message": "Why do we need this?",
       "revId": "fb206df827248baed445bcb99fd629ded090c085",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "36fc54e9_b00a4138",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-06-24T10:19:04Z",
+      "side": 1,
+      "message": "OnePlus 13R use qca6750 WLAN module",
+      "parentUuid": "75cc5c7f_f40119e9",
+      "revId": "fb206df827248baed445bcb99fd629ded090c085",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
