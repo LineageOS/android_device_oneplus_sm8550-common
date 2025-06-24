@@ -25,6 +25,7 @@ hdmi_dlkm.ko
 hung_task_enh.ko
 hvc_gunyah.ko
 i3c-master-msm-geni.ko
+icnss2.ko
 ipa_clientsm.ko
 ipanetm.ko
 last_boot_reason.ko
@@ -90,6 +91,7 @@ policy_engine.ko
 q6_dlkm.ko
 qbt_handler.ko
 qca_cld3_kiwi_v2.ko
+qca_cld3_qca6750.ko
 qcedev-mod_dlkm.ko
 qcom_edac.ko
 qcom-hv-haptics.ko

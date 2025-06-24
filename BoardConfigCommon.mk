@@ -137,6 +137,7 @@ TARGET_KERNEL_EXT_MODULES := \
     qcom/opensource/graphics-kernel \
     qcom/opensource/wlan/platform \
     qcom/opensource/wlan/qcacld-3.0/.kiwi_v2 \
+    qcom/opensource/wlan/qcacld-3.0/.qca6750 \
     qcom/opensource/bt-kernel \
     nxp/opensource/driver
 
