@@ -1,13 +1,6 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
 ## are from OnePlus 11 (CPH2449_15.0.0.840(EX01)).
 
-# Current blobs with ELF checks disabled:
-# audio.primary.kalama.so depends on liblx-osal and vendor.qti.hardware.AGMIPC@1.0-impl, which are gnu makefile targets
-# libagm depends on libar-gsl, libats and liblx-osal, which are gnu makefile targets
-# libar-pal depends on libagmclient, which is a gnu makefile target
-# libmcs depends on libar-acdb, libats and liblx-osal, which are gnu makefile targets
-# libqc2audio_hwaudiocodec depends on libpalclient, which is a gnu makefile target
-
 # ACDBs
 vendor/etc/acdbdata/ffv_models/ffv__5.0.1_0.1__3.0.0_0.0__eai_2.10_enpu3.pmd
 vendor/etc/acdbdata/nn_ns_models/fai__4.8.4_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_2.10_enpuv3.pmd
@@ -120,18 +113,18 @@ odm/lib64/libtfa98xx.so
 vendor/etc/models/acd/event.eai
 vendor/etc/models/acd/music.eai
 vendor/etc/models/acd/speech.eai
-vendor/lib64/hw/audio.primary.kalama.so;DISABLE_CHECKELF
+vendor/lib64/hw/audio.primary.kalama.so
 vendor/lib64/libAlacSwDec.so
 vendor/lib64/libApeSwDec.so
 vendor/lib64/libEvrcSwCodec.so
 vendor/lib64/libFlacSwDec.so
 vendor/lib64/libPeripheralStateUtils.so
 vendor/lib64/libadm.so
-vendor/lib64/libagm.so;DISABLE_CHECKELF
-vendor/lib64/libar-pal.so;DISABLE_CHECKELF
+vendor/lib64/libagm.so
+vendor/lib64/libar-pal.so
 vendor/lib64/libaudio_log_utils.so
 vendor/lib64/libdsd2pcm.so
-vendor/lib64/libmcs.so;DISABLE_CHECKELF
+vendor/lib64/libmcs.so
 vendor/lib64/libqtigefar.so
 vendor/lib64/libvui_dmgr.so
 vendor/lib64/libvui_dmgr_client.so
@@ -2064,7 +2057,7 @@ vendor/lib64/libqc2audio_base.so
 vendor/lib64/libqc2audio_basecodec.so
 vendor/lib64/libqc2audio_core.so
 vendor/lib64/libqc2audio_hooks.so
-vendor/lib64/libqc2audio_hwaudiocodec.so;DISABLE_CHECKELF
+vendor/lib64/libqc2audio_hwaudiocodec.so
 vendor/lib64/libqc2audio_platform.so
 vendor/lib64/libqc2audio_swaudiocodec.so
 vendor/lib64/libqc2audio_utils.so
