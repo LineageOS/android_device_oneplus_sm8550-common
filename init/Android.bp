@@ -1,5 +1,5 @@
 //
-// Copyright (C) 2022 The LineageOS Project
+// Copyright (C) 2022-2025 The LineageOS Project
 // SPDX-License-Identifier: Apache-2.0
 //
 
@@ -22,14 +22,6 @@ prebuilt_etc {
     src: "init.qti.kernel.rc",
     sub_dir: "init/hw",
     vendor: true,
-}
-
-prebuilt_etc {
-    name: "init.oplus.hw.rc",
-    src: "init.oplus.hw.rc",
-    sub_dir: "init",
-    device_specific: true,
-    recovery_available: true,
 }
 
 prebuilt_etc {
