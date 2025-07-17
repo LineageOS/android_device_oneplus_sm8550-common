@@ -16,6 +16,24 @@
       "message": "Since we enabled ELF check, libpalclient is now implicitly built, so we can safely remove it from common.mk. See: https://github.com/LineageOS/android_device_oneplus_sm8550-common/blob/lineage-23.0/common.mk#L226",
       "revId": "da1c1ce68dcf751d954b297b7c526635454d1439",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "94800ca5_817645a8",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 2041,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-07-17T18:35:32Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "03eb9103_c509984c",
+      "revId": "da1c1ce68dcf751d954b297b7c526635454d1439",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
