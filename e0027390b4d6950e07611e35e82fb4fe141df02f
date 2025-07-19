@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "48bf75c5_59dcdb23",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-07-19T09:02:07Z",
+      "side": 1,
+      "message": "Leave it be, I don\u0027t want to touch haptics anymore on sm8550.",
+      "revId": "e0027390b4d6950e07611e35e82fb4fe141df02f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
