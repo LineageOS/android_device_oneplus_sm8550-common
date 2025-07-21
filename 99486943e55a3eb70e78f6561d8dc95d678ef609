@@ -34,6 +34,24 @@
       "parentUuid": "ec446194_24db79cc",
       "revId": "99486943e55a3eb70e78f6561d8dc95d678ef609",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d5ae597b_8991b65f",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 2665,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-07-21T09:04:25Z",
+      "side": 1,
+      "message": "You don\u0027t need to rename the file on sm8450+ platforms, they use wfdservice64 directly via vendor.wfdservice64 property which is set by the stack",
+      "parentUuid": "cb4f7ba8_87e678f1",
+      "revId": "99486943e55a3eb70e78f6561d8dc95d678ef609",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
