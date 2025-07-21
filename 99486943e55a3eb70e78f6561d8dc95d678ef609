@@ -16,6 +16,24 @@
       "message": "is there any reason for this?",
       "revId": "99486943e55a3eb70e78f6561d8dc95d678ef609",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cb4f7ba8_87e678f1",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 2665,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-07-21T08:58:23Z",
+      "side": 1,
+      "message": "wfdservice.rc points to /system_ext/bin/wfdservice",
+      "parentUuid": "ec446194_24db79cc",
+      "revId": "99486943e55a3eb70e78f6561d8dc95d678ef609",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
