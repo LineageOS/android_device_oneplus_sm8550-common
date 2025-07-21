@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f3eb7417_2ebd4979",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 2669,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-07-21T06:47:49Z",
+      "side": 0,
+      "message": "Why was this dropped? Dada OS 2.0.217.0.WOCMIXM still ships it. See: https://dumps.tadiphone.dev/dumps/xiaomi/dada/-/blob/missi-user-16-BP2A.250605.015-OS2.0.217.0.WOCMIXM-release-keys/system_ext/etc/wfdconfigsink.xml",
+      "revId": "1acea3f11ceadd8ef1f66c890a6e059bc088f519",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
