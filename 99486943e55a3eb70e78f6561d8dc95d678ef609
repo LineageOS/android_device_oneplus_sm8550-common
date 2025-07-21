@@ -52,6 +52,24 @@
       "parentUuid": "cb4f7ba8_87e678f1",
       "revId": "99486943e55a3eb70e78f6561d8dc95d678ef609",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1c204095_a5964fd5",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 2665,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-07-21T09:31:51Z",
+      "side": 1,
+      "message": "wfdservice.rc points to both 32-bit and 64-bit variants. Since we are building 64-bit only, I don\u0027t think we need to rename the service.",
+      "parentUuid": "d5ae597b_8991b65f",
+      "revId": "99486943e55a3eb70e78f6561d8dc95d678ef609",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
