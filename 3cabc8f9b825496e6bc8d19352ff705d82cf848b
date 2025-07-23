@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "203d55fd_f37a1612",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35667
+      },
+      "writtenOn": "2025-07-23T16:35:23Z",
+      "side": 1,
+      "message": "looks like a few other devices also need this change for android 16 to be bootable",
+      "revId": "3cabc8f9b825496e6bc8d19352ff705d82cf848b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
