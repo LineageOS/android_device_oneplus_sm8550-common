@@ -2,7 +2,6 @@
 ## are from OnePlus 11 (CPH2449_15.0.0.820(EX01)).
 
 # Current blobs with ELF checks disabled:
-# audio.primary.kalama.so depends on liblx-osal and vendor.qti.hardware.AGMIPC@1.0-impl, which are gnu makefile targets
 # libagm depends on libar-gsl, libats and liblx-osal, which are gnu makefile targets
 # libar-pal depends on libagmclient, which is a gnu makefile target
 # libmcs depends on libar-acdb, libats and liblx-osal, which are gnu makefile targets
@@ -120,7 +119,6 @@ odm/lib64/libtfa98xx.so
 vendor/etc/models/acd/event.eai
 vendor/etc/models/acd/music.eai
 vendor/etc/models/acd/speech.eai
-vendor/lib64/hw/audio.primary.kalama.so;DISABLE_CHECKELF
 vendor/lib64/libAlacSwDec.so
 vendor/lib64/libApeSwDec.so
 vendor/lib64/libEvrcSwCodec.so
