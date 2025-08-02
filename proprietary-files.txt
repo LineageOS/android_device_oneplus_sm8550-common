@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 11 (CPH2449_15.0.0.820(EX01)).
+## are from OnePlus 11 (CPH2449_15.0.0.840(EX01)).
 
 # Current blobs with ELF checks disabled:
 # audio.primary.kalama.so depends on liblx-osal and vendor.qti.hardware.AGMIPC@1.0-impl, which are gnu makefile targets
@@ -978,6 +978,7 @@ odm/lib64/libCipParameter6.so
 odm/lib64/libCipo_awb.so
 odm/lib64/libDeVIS.so
 odm/lib64/libEIS.so
+odm/lib64/libEISLive.so
 odm/lib64/libFDClite.so
 odm/lib64/libFaceBeautyCap.so
 odm/lib64/libFaceBeautyJni.so
