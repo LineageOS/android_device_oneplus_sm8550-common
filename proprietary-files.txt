@@ -1753,6 +1753,26 @@ odm/vendor/firmware/uff_spi.b07
 odm/vendor/firmware/uff_spi.b08
 odm/vendor/firmware/uff_spi.mdt
 
+# Fingerprint Pay
+odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service
+odm/etc/init/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service.rc
+odm/etc/vintf/manifest/manifest_oplus_ifaa.xml
+odm/lib64/libifaa_factory.so
+odm/lib64/librpmbengclient.so
+odm/lib64/libsecurity_event_dcs_vnd.so
+
+# Fingerprint Pay Firmware
+odm/firmware/secure_ta/alipay.b00
+odm/firmware/secure_ta/alipay.b01
+odm/firmware/secure_ta/alipay.b02
+odm/firmware/secure_ta/alipay.b03
+odm/firmware/secure_ta/alipay.b04
+odm/firmware/secure_ta/alipay.b05
+odm/firmware/secure_ta/alipay.b06
+odm/firmware/secure_ta/alipay.b07
+odm/firmware/secure_ta/alipay.b08
+odm/firmware/secure_ta/alipay.mdt
+
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
 vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
