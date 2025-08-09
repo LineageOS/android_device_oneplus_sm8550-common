@@ -58,6 +58,7 @@ oplus_chg_symbol.ko
 oplus_chg_v2.ko
 oplus_gpio.ko
 oplus_nfc.ko
+oplus_secure_common.ko
 oplus_sensor.ko
 oplus_theia.ko
 phy-generic.ko
