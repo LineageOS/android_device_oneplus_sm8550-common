@@ -52,6 +52,24 @@
       "parentUuid": "ccb2e463_159b947c",
       "revId": "fe844781f8919b08ad52938727b4ddbb3a7eb08f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "17e4d6e4_df4dafad",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10258
+      },
+      "writtenOn": "2025-08-10T09:29:05Z",
+      "side": 1,
+      "message": "I think this is at least fine for sun because stock system_dlkm contains .ko + modules.{alias,dep,load} but not the blacklist",
+      "parentUuid": "effbb836_7009e207",
+      "revId": "fe844781f8919b08ad52938727b4ddbb3a7eb08f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
