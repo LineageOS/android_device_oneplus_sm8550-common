@@ -16,6 +16,24 @@
       "message": "Are you ok with this?",
       "revId": "fe844781f8919b08ad52938727b4ddbb3a7eb08f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ccb2e463_159b947c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10258
+      },
+      "writtenOn": "2025-08-10T09:19:16Z",
+      "side": 1,
+      "message": "you mean dropping BOARD_SYSTEM_KERNEL_MODULES_BLOCKLIST_FILE? idk, just do whatever matching stock behavior.",
+      "parentUuid": "16ffa977_7ff4a48e",
+      "revId": "fe844781f8919b08ad52938727b4ddbb3a7eb08f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
