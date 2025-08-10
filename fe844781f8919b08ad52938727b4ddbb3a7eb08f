@@ -34,6 +34,24 @@
       "parentUuid": "16ffa977_7ff4a48e",
       "revId": "fe844781f8919b08ad52938727b4ddbb3a7eb08f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "effbb836_7009e207",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-08-10T09:24:54Z",
+      "side": 1,
+      "message": "Well... stock system_dlkm is empty.",
+      "parentUuid": "ccb2e463_159b947c",
+      "revId": "fe844781f8919b08ad52938727b4ddbb3a7eb08f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
