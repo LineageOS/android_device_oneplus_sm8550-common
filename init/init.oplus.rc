@@ -32,6 +32,9 @@ on property:ro.boot.prjname=22861
     setprop persist.vendor.display.pxlw.iris_feature 0x400080
 
 on property:sys.boot_completed=1
+    # Charging
+    chown system system /dev/oplus_chg
+
     # Widevine
     copy /vendor/etc/oplus_Widevine_licenses.pfm /mnt/vendor/persist/data/pfm/licenses/oplus_Widevine_licenses.pfm
     chmod 0600 /mnt/vendor/persist/data/pfm/licenses/oplus_Widevine_licenses.pfm
