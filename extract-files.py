@@ -42,6 +42,7 @@ lib_fixups: lib_fixups_user_type = {
     (
         'libpwirisfeature',
         'libpwirishalwrapper',
+	'vendor.oplus.hardware.performance-V1-ndk',
     ): lib_fixup_odm_suffix,
     (
         'com.qualcomm.qti.dpm.api@1.0',
