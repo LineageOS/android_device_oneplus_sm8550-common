@@ -1350,10 +1350,6 @@ vendor/lib64/libmdsprpc.so
 vendor/lib64/libsdsprpc.so
 
 # Charger
-odm/firmware/fastchg/22861/bms_heating_config.txt
-odm/firmware/fastchg/22861/charging_hyper_mode_config.txt
-odm/firmware/fastchg/22861/charging_thermal_config_default.txt
-odm/firmware/fastchg/smart_chg_config_table.txt
 vendor/etc/charger_fw_fstab.qti
 
 # CNE
@@ -1891,6 +1887,16 @@ vendor/lib64/libxtadapter.so
 vendor/lib64/vendor.qti.gnss-V5-ndk.so
 vendor/lib64/vendor.qti.gnss-service.so
 
+# Horae
+system/lib64/libostatslog.so:system_ext/lib64/libostatslog.so
+system/lib64/vendor.oplus.hardware.displaypanelfeature-V1-ndk.so:system_ext/lib64/vendor.oplus.hardware.displaypanelfeature-V1-ndk.so
+system_ext/bin/horae
+system_ext/etc/horae/horae.conf
+system_ext/etc/horae/horae_SM8550.conf
+system_ext/etc/init/horae.rc
+system_ext/lib64/vendor.oplus.hardware.charger-V1-ndk.so
+system_ext/lib64/vendor.oplus.hardware.displaypanelfeature@1.0.so
+
 # Hotword Enrollment
 my_product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml:product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml
 my_product/framework/com.android.hotwordenrollment.common.util.jar:product/framework/com.android.hotwordenrollment.common.util.jar
@@ -2123,6 +2129,18 @@ vendor/lib64/libqnnengine.so
 odm/etc/nfc/libnfc-mtp-SN100.conf_22861:vendor/etc/libnfc-nxp.conf
 odm/etc/nfc/libnfc-nci.conf_22861:vendor/etc/libnfc-nci.conf
 odm/lib/libsn100u_fw.so:vendor/lib64/libsn100u_fw.so
+
+# OPLUS Charger
+odm/bin/hw/vendor.oplus.hardware.charger-V6-service
+odm/etc/init/vendor.oplus.hardware.charger-V6-service.rc
+odm/etc/vintf/manifest/manifest_oplus_charger_aidl.xml
+odm/etc/charge.cfg
+odm/firmware/fastchg/22861/bms_heating_config.txt
+odm/firmware/fastchg/22861/charging_hyper_mode_config.txt
+odm/firmware/fastchg/22861/charging_thermal_config_default.txt
+odm/firmware/fastchg/smart_chg_config_table.txt
+odm/lib64/libGaiaClient_vnd.so
+odm/lib64/vendor.oplus.hardware.charger-V6-ndk.so
 
 # OPLUS OSense
 odm/lib64/libosenseaidlhalclient.so
