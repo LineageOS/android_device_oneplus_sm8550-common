@@ -1520,7 +1520,7 @@ vendor/lib64/libhdrdynamicootf.so
 
 # Display (HWC)
 odm/etc/vintf/manifest/manifest_oplus_cwb.xml
-vendor/bin/hw/vendor.qti.hardware.display.composer-service
+vendor/bin/hw/vendor.qti.hardware.display.composer-service;REQUIRED=vendor.qti.hardware.display.composer-service.rc,vendor.qti.hardware.display.composer-service.xml
 vendor/bin/qdcmss
 vendor/etc/init/qdcmss.rc
 vendor/etc/snapdragon_color_libs_config.xml

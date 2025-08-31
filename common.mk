@@ -116,8 +116,6 @@ PRODUCT_PACKAGES += \
     init.qti.display_boot.sh \
     vendor.qti.hardware.display.allocator-service \
     vendor.qti.hardware.display.composer-service \
-    vendor.qti.hardware.display.composer-service.rc \
-    vendor.qti.hardware.display.composer-service.xml \
     vendor.qti.hardware.display.demura-service
 
 PRODUCT_COPY_FILES += \
