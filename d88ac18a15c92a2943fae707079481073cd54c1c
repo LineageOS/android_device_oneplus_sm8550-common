@@ -34,6 +34,24 @@
       "parentUuid": "a9868da8_a84078b9",
       "revId": "d88ac18a15c92a2943fae707079481073cd54c1c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "919efbcf_5cbd86fa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-09-04T12:54:34Z",
+      "side": 1,
+      "message": "It exists at least since sm8450 till sm8750, but not sm8650? What the hell.",
+      "parentUuid": "1bc67d6f_d8c7c687",
+      "revId": "d88ac18a15c92a2943fae707079481073cd54c1c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
