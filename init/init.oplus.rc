@@ -31,6 +31,12 @@ on property:ro.boot.prjname=22811
 on property:ro.boot.prjname=22861
     setprop persist.vendor.display.pxlw.iris_feature 0x400080
 
+on property:ro.boot.prjname=23801
+    setprop persist.vendor.display.pxlw.iris_feature 0x407f0780
+
+on property:ro.boot.prjname=23861
+    setprop persist.vendor.display.pxlw.iris_feature 0x400080
+
 on property:sys.boot_completed=1
     # Charging
     chown system system /dev/oplus_chg
