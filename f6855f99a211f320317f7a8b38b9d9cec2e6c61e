@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6fddb432_7ea25812",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 475,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-09-10T13:01:15Z",
+      "side": 1,
+      "message": "We are also going to decommonize this.",
+      "range": {
+        "startLine": 465,
+        "startChar": 0,
+        "endLine": 475,
+        "endChar": 66
+      },
+      "revId": "f6855f99a211f320317f7a8b38b9d9cec2e6c61e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
