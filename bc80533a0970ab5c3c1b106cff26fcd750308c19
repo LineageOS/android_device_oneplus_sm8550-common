@@ -16,6 +16,23 @@
       "message": "No regression on salami. Please test aston.",
       "revId": "bc80533a0970ab5c3c1b106cff26fcd750308c19",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b3885037_e4ea04a2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32811
+      },
+      "writtenOn": "2025-09-11T01:39:17Z",
+      "side": 1,
+      "message": "Why do we need qca6750 on sm8550-common",
+      "revId": "bc80533a0970ab5c3c1b106cff26fcd750308c19",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
