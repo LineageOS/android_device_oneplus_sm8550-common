@@ -46,6 +46,30 @@
       },
       "revId": "4a8323d0df0cfe300f598f4023b3009f9110ac73",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f0d7cb80_e81dfabf",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 4
+      },
+      "lineNbr": 1717,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-09-13T12:55:32Z",
+      "side": 0,
+      "message": "Sure, but I mean eUICC blobs only.",
+      "parentUuid": "00aef8ce_83c11cc2",
+      "range": {
+        "startLine": 1715,
+        "startChar": 0,
+        "endLine": 1717,
+        "endChar": 102
+      },
+      "revId": "4a8323d0df0cfe300f598f4023b3009f9110ac73",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
