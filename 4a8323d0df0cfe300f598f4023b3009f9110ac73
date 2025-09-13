@@ -3,6 +3,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "ea1867fc_301bc463",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 4
+      },
+      "lineNbr": 1610,
+      "author": {
+        "id": 33857
+      },
+      "writtenOn": "2025-09-13T14:06:58Z",
+      "side": 0,
+      "message": "Is this necessary?\nCompared to blobs from ace 3, only these two files added and no file deleted:\n- vendor/etc/display/qdcm_calib_data_AA551_P_3_A0004_dsc_cmd_mode_panel.json\n- vendor/etc/ltm_config_AA551_P_3_A0004_dsc_cmd_mode_panel.xml\n\nSo I think we don\u0027t need to decommise this, currently only ace 3 have AA551 data, and it can be only defined in aston device tree",
+      "revId": "4a8323d0df0cfe300f598f4023b3009f9110ac73",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "c8137ed0_89fb8394",
         "filename": "proprietary-files.txt",
         "patchSetId": 4
