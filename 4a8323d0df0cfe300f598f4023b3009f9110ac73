@@ -158,6 +158,23 @@
       },
       "revId": "4a8323d0df0cfe300f598f4023b3009f9110ac73",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "37f273c3_f814c57e",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 4
+      },
+      "lineNbr": 2118,
+      "author": {
+        "id": 33857
+      },
+      "writtenOn": "2025-09-13T15:00:01Z",
+      "side": 0,
+      "message": "libaiboost_te.so: Shouldn\u0027t we fix the soname of this blob?",
+      "revId": "4a8323d0df0cfe300f598f4023b3009f9110ac73",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
