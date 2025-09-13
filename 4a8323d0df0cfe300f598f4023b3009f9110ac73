@@ -3,6 +3,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "9d7682ab_cff2bfa6",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 4
+      },
+      "lineNbr": 1448,
+      "author": {
+        "id": 33857
+      },
+      "writtenOn": "2025-09-13T14:34:03Z",
+      "side": 0,
+      "message": "I suggest decommise this, because on ace3 line 1449~1451 don\u0027t exist, and only have vendor/etc/init/android.hardware.contexthub-service.qmi.rc",
+      "revId": "4a8323d0df0cfe300f598f4023b3009f9110ac73",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "ea1867fc_301bc463",
         "filename": "proprietary-files.txt",
         "patchSetId": 4
