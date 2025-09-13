@@ -36,6 +36,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "dae2552e_56ecd09f",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 4
+      },
+      "lineNbr": 1448,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-09-13T15:06:48Z",
+      "side": 0,
+      "message": "We don\u0027t need to remove everything (like this in particular) from here just because a certain device doesn\u0027t have it. Remember that common blobs will continue to be extracted from OnePlus 11 (CHP2449).",
+      "parentUuid": "21f336fd_8dbd9347",
+      "revId": "4a8323d0df0cfe300f598f4023b3009f9110ac73",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ea1867fc_301bc463",
