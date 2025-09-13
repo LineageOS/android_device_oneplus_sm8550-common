@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "21f336fd_8dbd9347",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 4
+      },
+      "lineNbr": 1448,
+      "author": {
+        "id": 33857
+      },
+      "writtenOn": "2025-09-13T14:53:20Z",
+      "side": 0,
+      "message": "never mind, seems it\u0027s too much hassle, this need to deal with things like euicc and okgoogle",
+      "parentUuid": "9d7682ab_cff2bfa6",
+      "revId": "4a8323d0df0cfe300f598f4023b3009f9110ac73",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ea1867fc_301bc463",
