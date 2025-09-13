@@ -2148,7 +2148,6 @@ vendor/lib64/vendor.oplus.hardware.stability.oplus_project-V1-ndk.so
 
 # OPLUS URCC
 odm/lib64/liboplus-uah-client.so
-odm/lib64/vendor.oplus.hardware.urcc-V1-ndk.so
 
 # PD
 vendor/bin/pd-mapper
