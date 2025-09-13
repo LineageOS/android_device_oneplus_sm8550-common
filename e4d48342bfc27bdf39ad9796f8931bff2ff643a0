@@ -16,6 +16,24 @@
       "message": "Why is it not needed on aston?",
       "revId": "e4d48342bfc27bdf39ad9796f8931bff2ff643a0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "93641c5c_1f003417",
+        "filename": "common.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 147,
+      "author": {
+        "id": 32811
+      },
+      "writtenOn": "2025-09-13T12:38:49Z",
+      "side": 0,
+      "message": "It\u0027s needed, I have decommonised shim in tree for returning z as zorder, in hardware/oplus we return hex. Without that, the udfps icon will keep glowing when it\u0027s not needed (like after unlock) and it won\u0027t glow when it\u0027s needed (when pressing fod).",
+      "parentUuid": "eaea46d8_dcfedc9f",
+      "revId": "e4d48342bfc27bdf39ad9796f8931bff2ff643a0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

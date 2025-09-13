@@ -22,6 +22,30 @@
       },
       "revId": "4a8323d0df0cfe300f598f4023b3009f9110ac73",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "00aef8ce_83c11cc2",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 4
+      },
+      "lineNbr": 1717,
+      "author": {
+        "id": 32811
+      },
+      "writtenOn": "2025-09-13T12:38:49Z",
+      "side": 0,
+      "message": "Using blobs from salami causes camera issues on aston, also i would like to debloat the stack eventually cause there\u0027s many blobs i don\u0027t need.",
+      "parentUuid": "c8137ed0_89fb8394",
+      "range": {
+        "startLine": 1715,
+        "startChar": 0,
+        "endLine": 1717,
+        "endChar": 102
+      },
+      "revId": "4a8323d0df0cfe300f598f4023b3009f9110ac73",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
