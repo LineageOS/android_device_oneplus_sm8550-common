@@ -16,6 +16,24 @@
       "message": "@moegluwu0@gmail.com do you want to maintain OnePlus Ace 3?",
       "revId": "2c8e9e5ff7e02e50fddc39ca03b9fd8fcbb28594",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1a9db60c_dc85feb9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 12
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 33857
+      },
+      "writtenOn": "2025-09-14T16:00:56Z",
+      "side": 1,
+      "message": "Actually Ace 3(China region) and 12R(Global, EU, IN) is the very similar device for us, their hardware is consistent.\nIf you wish to split 12R and Ace3, then I want to maintain ace3 individually",
+      "parentUuid": "e7f43cbe_c0ccc3cb",
+      "revId": "2c8e9e5ff7e02e50fddc39ca03b9fd8fcbb28594",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
