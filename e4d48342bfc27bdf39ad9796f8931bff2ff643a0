@@ -70,6 +70,24 @@
       "parentUuid": "564edf89_9da35921",
       "revId": "e4d48342bfc27bdf39ad9796f8931bff2ff643a0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c61c02e0_528cbbd5",
+        "filename": "common.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 147,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-09-14T15:03:25Z",
+      "side": 0,
+      "message": "Yes, some soong_config.",
+      "parentUuid": "8df4414c_b8934ed6",
+      "revId": "e4d48342bfc27bdf39ad9796f8931bff2ff643a0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
