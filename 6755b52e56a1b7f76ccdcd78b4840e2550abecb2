@@ -16,6 +16,24 @@
       "message": "@mail@inferno0230.in Does richtap does not work on 12R? It is working fine on ace 3",
       "revId": "6755b52e56a1b7f76ccdcd78b4840e2550abecb2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a4055bc0_2ddacef2",
+        "filename": "common.mk",
+        "patchSetId": 13
+      },
+      "lineNbr": 404,
+      "author": {
+        "id": 32811
+      },
+      "writtenOn": "2025-09-14T16:51:52Z",
+      "side": 0,
+      "message": "QTI effects are better on 12R. Some of my Ace3 users also asked me to use qti effects instead of richtap for the same reason",
+      "parentUuid": "984cfccb_9424f3d6",
+      "revId": "6755b52e56a1b7f76ccdcd78b4840e2550abecb2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
