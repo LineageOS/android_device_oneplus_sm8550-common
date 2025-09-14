@@ -52,6 +52,24 @@
       "parentUuid": "93641c5c_1f003417",
       "revId": "e4d48342bfc27bdf39ad9796f8931bff2ff643a0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8df4414c_b8934ed6",
+        "filename": "common.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 147,
+      "author": {
+        "id": 33857
+      },
+      "writtenOn": "2025-09-14T15:00:54Z",
+      "side": 0,
+      "message": "By add cflag and use select() in Android.bp?",
+      "parentUuid": "564edf89_9da35921",
+      "revId": "e4d48342bfc27bdf39ad9796f8931bff2ff643a0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
