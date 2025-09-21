@@ -7,6 +7,8 @@ boot_stats.ko
 cdsp-loader.ko
 cdsprm.ko
 core_hang_detect.ko
+cpufreq_stats_scmi.ko
+cpufreq_stats_vendor.ko
 cpu_voltage_cooling.ko
 ddr_cdev.ko
 debugcc-kalama.ko
@@ -74,6 +76,8 @@ phy-qcom-ufs-qmp-v4.ko
 phy-qcom-ufs-qmp-v4-waipio.ko
 pinctrl-spmi-gpio.ko
 pinctrl-spmi-mpp.ko
+plh_scmi.ko
+plh_vendor.ko
 pm8941-pwrkey.ko
 pmic-pon-log.ko
 policy_engine.ko
@@ -128,3 +132,4 @@ usb_f_cdev.ko
 usb_f_diag.ko
 usb_f_gsi.ko
 usbmon.ko
+wcd_usbss_i2c.ko

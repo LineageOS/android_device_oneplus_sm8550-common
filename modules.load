@@ -10,6 +10,8 @@ camera.ko
 cdsp-loader.ko
 cdsprm.ko
 core_hang_detect.ko
+cpufreq_stats_scmi.ko
+cpufreq_stats_vendor.ko
 cpu_voltage_cooling.ko
 ddr_cdev.ko
 debugcc-kalama.ko
@@ -52,6 +54,7 @@ msm_geni_serial.ko
 msm_kgsl.ko
 msm_lmh_dcvs.ko
 msm_memshare.ko
+msm_performance.ko
 msm_sharedmem.ko
 msm_show_epoch.ko
 msm_show_resume_irq.ko
@@ -91,6 +94,7 @@ phy-qcom-ufs-qmp-v4-waipio.ko
 pinctrl_lpi_dlkm.ko
 pinctrl-spmi-gpio.ko
 pinctrl-spmi-mpp.ko
+plh_scmi.ko
 pm8941-pwrkey.ko
 pmic-pon-log.ko
 policy_engine.ko
@@ -160,3 +164,4 @@ usb_f_diag.ko
 usb_f_gsi.ko
 usbmon.ko
 wcd938x_slave_dlkm.ko
+wcd_usbss_i2c.ko
