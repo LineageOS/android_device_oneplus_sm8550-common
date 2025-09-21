@@ -40,7 +40,6 @@ msm_drm.ko
 msm_geni_serial.ko
 msm_lmh_dcvs.ko
 msm_memshare.ko
-msm_performance.ko
 msm_sharedmem.ko
 msm_show_epoch.ko
 msm_show_resume_irq.ko

@@ -125,3 +125,4 @@ ufcs_class.ko
 ufshcd-crypto-qti.ko
 usb_bam.ko
 usb_f_qdss.ko
+wcd_usbss_i2c.ko
