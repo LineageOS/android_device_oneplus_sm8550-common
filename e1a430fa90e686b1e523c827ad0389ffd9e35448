@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d94b7135_97a9eca8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32811
+      },
+      "writtenOn": "2025-09-26T10:36:53Z",
+      "side": 1,
+      "message": "walt is boosting clocks even when device is idling at home screen. pushed for my pick",
+      "revId": "e1a430fa90e686b1e523c827ad0389ffd9e35448",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
