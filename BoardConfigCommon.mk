@@ -85,7 +85,8 @@ BOARD_BOOTCONFIG := \
     androidboot.usbcontroller=a600000.dwc3
 
 BOARD_KERNEL_CMDLINE := \
-    nosoftlockup
+    nosoftlockup \
+    dispcc-kalama.load_sequential=1
 
 BOARD_USES_GENERIC_KERNEL_IMAGE := true
 BOARD_KERNEL_BASE := 0x00000000
