@@ -706,12 +706,10 @@ vendor/lib64/vendor.qti.gnss-service.so
 
 # Horae
 system/lib64/libostatslog.so:system_ext/lib64/libostatslog.so
-system/lib64/vendor.oplus.hardware.displaypanelfeature-V1-ndk.so:system_ext/lib64/vendor.oplus.hardware.displaypanelfeature-V1-ndk.so
 system_ext/bin/horae
 system_ext/etc/horae/horae.conf
 system_ext/etc/horae/horae_SM8550.conf
 system_ext/etc/init/horae.rc
-system_ext/lib64/vendor.oplus.hardware.displaypanelfeature@1.0.so
 
 # Hotword Enrollment
 my_product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml:product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml
