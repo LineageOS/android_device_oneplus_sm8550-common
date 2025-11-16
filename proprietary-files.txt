@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 11 (CPH2449_15.0.0.862(EX01)).
+## are from OnePlus 11 5G (CPH2449_16.0.1.300(EX01)).
 
 # ACDBs
 vendor/etc/acdbdata/ffv_models/ffv__5.0.1_0.1__3.0.0_0.0__eai_2.10_enpu3.pmd
@@ -716,14 +716,15 @@ my_product/priv-app/HotwordEnrollmentYGoogleHEXAGON_WIDEBAND.apk:product/priv-ap
 
 # IMS
 system/lib64/vendor.qti.diaghal-V1-ndk.so
-system_ext/app/ImsRcsService/ImsRcsService.apk
 system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml
-system_ext/etc/permissions/vendor.qti.ims.rcsservice.xml
+system_ext/etc/permissions/vendor.qti.imsdatachannel.xml
 system_ext/etc/sysconfig/qti_telephony_system_packages_config.xml
 system_ext/etc/sysconfig/qti_whitelist_system_ext.xml
 system_ext/framework/oplus-ims-ext.jar
+system_ext/framework/vendor.qti.hardware.c2pa-V1-java.jar
 system_ext/framework/vendor.qti.ims.connection-V1.0-java.jar
 system_ext/framework/vendor.qti.ims.connectionaidlservice-V1-java.jar
+system_ext/framework/vendor.qti.ims.datachannelservice-V3-java.jar
 system_ext/framework/vendor.qti.ims.factory-V2.0-java.jar
 system_ext/framework/vendor.qti.ims.factory-V2.1-java.jar
 system_ext/framework/vendor.qti.ims.factory-V2.2-java.jar
@@ -736,6 +737,7 @@ system_ext/framework/vendor.qti.ims.rcsuce-V1.0-java.jar
 system_ext/framework/vendor.qti.ims.rcsuce-V1.1-java.jar
 system_ext/framework/vendor.qti.ims.rcsuce-V1.2-java.jar
 system_ext/framework/vendor.qti.ims.rcsuceaidlservice-V1-java.jar
+system_ext/framework/vendor.qti.imsdatachannel.jar
 system_ext/lib64/lib-imsvideocodec.so
 system_ext/lib64/lib-imsvt.so
 system_ext/lib64/lib-imsvtextutils.so
@@ -743,7 +745,8 @@ system_ext/lib64/lib-imsvtutils.so
 system_ext/lib64/libdiag_system.so
 system_ext/lib64/libimscamera_jni.so;SYMLINK=system_ext/priv-app/ims/lib/arm64/libimscamera_jni.so
 system_ext/lib64/libimsmedia_jni.so;SYMLINK=system_ext/priv-app/ims/lib/arm64/libimsmedia_jni.so
-system_ext/lib64/vendor.qti.ImsRtpService-V1-ndk.so
+system_ext/lib64/vendor.qti.ImsRtpService-V2-ndk.so
+system_ext/lib64/vendor.qti.ims.datachannelservice-V3-ndk.so
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so
 system_ext/lib64/vendor.qti.imsrtpservice@3.1.so
 system_ext/priv-app/ims/ims.apk
@@ -918,6 +921,15 @@ odm/lib64/aiboost/libQnnHtp.so;MODULE_SUFFIX=.aiboost
 odm/lib64/aiboost/libQnnHtpPrepare.so;MODULE_SUFFIX=.aiboost
 odm/lib64/aiboost/libQnnHtpV73Stub.so;MODULE_SUFFIX=.aiboost
 odm/lib64/aiboost/libQnnSystem.so;MODULE_SUFFIX=.aiboost
+odm/lib64/aiframe/cdsp/signed/libQnnHtpV73Skel.so;MODULE_SUFFIX=.aiframe_signed
+odm/lib64/aiframe/cdsp/unsigned/libQnnHtpV73Skel.so;MODULE_SUFFIX=.aiframe_unsigned
+odm/lib64/aiframe/libQnnHtp.so;MODULE_SUFFIX=.aiframe
+odm/lib64/aiframe/libQnnHtpPrepare.so;MODULE_SUFFIX=.aiframe
+odm/lib64/aiframe/libQnnHtpV73Stub.so;MODULE_SUFFIX=.aiframe
+odm/lib64/aiframe/libQnnSystem.so;MODULE_SUFFIX=.aiframe
+odm/lib64/aiframe/libaiboost_qnn_external_delegate.so;FIX_SONAME
+odm/lib64/aiframe/libqcom_llm.so
+odm/lib64/aiframe/libtransformer_lite.so
 odm/lib64/libQnnCpu.so
 odm/lib64/libQnnGpu.so
 odm/lib64/libQnnHtp.so
@@ -925,6 +937,8 @@ odm/lib64/libQnnHtpPrepare.so
 odm/lib64/libQnnHtpV73CalculatorStub.so
 odm/lib64/libQnnHtpV73Stub.so
 odm/lib64/libQnnSaver.so
+odm/lib64/libaiboost.so
+odm/lib64/libaiboost_llm.so
 odm/lib64/libaiboost_qnn_sr.so
 odm/lib64/libaiboost_sr.so
 odm/lib64/libaiboost_te.so
@@ -938,8 +952,9 @@ vendor/lib64/libQnnSystem.so
 vendor/lib64/libqnnengine.so
 
 # OPLUS Charger
-odm/bin/hw/vendor.oplus.hardware.charger-V6-service
-odm/etc/init/vendor.oplus.hardware.charger-V6-service.rc
+odm/bin/hw/gauged
+odm/bin/hw/vendor.oplus.hardware.charger-V9-service
+odm/etc/init/vendor.oplus.hardware.charger-V9-service.rc
 odm/etc/vintf/manifest/manifest_oplus_charger_aidl.xml
 odm/etc/charge.cfg
 odm/lib64/libGaiaClient_vnd.so
@@ -1120,6 +1135,10 @@ vendor/lib64/libqsocket.so
 vendor/lib64/libsmemlog.so
 vendor/lib64/libsystem_health_mon.so
 
+# QSPA
+system_ext/etc/init/qspa_system.rc
+system_ext/etc/qspa/qspa_default.rc
+
 # QSPM
 vendor/bin/vendor.qti.qspmhal@1.0-service
 vendor/etc/init/vendor.qti.qspmhal@1.0-service.rc
@@ -1134,14 +1153,34 @@ vendor/etc/vintf/manifest/vendor.qti.hardware.servicetracker@1.2-service.xml
 vendor/lib64/hw/vendor.qti.hardware.servicetracker@1.2-impl.so
 
 # RIL
+odm/bin/hw/subsys_daemon
+odm/bin/commcenterd
+odm/bin/init.subsys.sh
+odm/etc/init/commcenterd.rc
+odm/etc/init/init.network.rc
+odm/etc/init/subsys_daemon.rc
 odm/etc/vintf/manifest/device_manifest_communication_center_aidl.xml
+odm/etc/vintf/manifest/device_manifest_subsys.xml
+odm/etc/QtiFtmPublicKey.pem
+odm/etc/plugin_config.xml
 odm/lib64/lib-virtual-modem-protos.so
 odm/lib64/libcommcenterfw.so
 odm/lib64/libcommcenterutils.so
 odm/lib64/libdmtp-protos-lite.so
 odm/lib64/libdmtp.so
 odm/lib64/libdmtpclient.so
+odm/lib64/libmindroid-app.so
+odm/lib64/libmindroid-framework.so
+odm/lib64/libqti-radio-service.so
+odm/lib64/libradio-service.so
+odm/lib64/libradioapis.so
+odm/lib64/librfapis.so
+odm/lib64/libsubsys-service.so
+odm/lib64/libsubsys-utils.so
+odm/lib64/libvasapi.so
 odm/lib64/vendor.oplus.hardware.communicationcenter-V2-ndk.so
+odm/lib64/vendor.oplus.hardware.subsys-V5-ndk.so
+odm/lib64/vendor.oplus.hardware.subsys_radio-V8-ndk.so
 system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
 system_ext/etc/permissions/qcrilhook.xml
 system_ext/etc/permissions/qti_libpermissions.xml
@@ -1488,37 +1527,35 @@ vendor/etc/wifi/p2p_supplicant_overlay.conf
 vendor/etc/wifi/vendor_cmd.xml
 vendor/etc/wifi/wpa_supplicant_overlay.conf
 
-# WiFi Display (system) - from dada OS2.0.217.0.WOCMIXM
-system/framework/WfdCommon.jar;BOOT_JAR|76fab5ed43206989057284fa26e8b894f1da102f
-system_ext/bin/wfdservice64|34851904d02d11d3cfebbc7b8745a9444ba3e7c5
-system_ext/etc/init/wfdservice.rc|907def8565d8f91f531ca7dfad880af05d540b0c
-system_ext/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml|6669d5ee462c981663b8ac573d84d334e4eed96c
-system_ext/etc/seccomp_policy/wfdservice64.policy|1e331272649395423b11c575892e0bdc9433b820
-system_ext/etc/wfdconfigsink.xml|d718bc1ccb3e6e52a0af7bf4de62445c0b083651
-system_ext/lib64/libmmrtpdecoder.so|8b143c0b004a2f5ab8d7911dd463de0ceea794e7
-system_ext/lib64/libmmrtpencoder.so|eef3f64e6c2892fc0c87e176f5a83f7fe07761d3
-system_ext/lib64/libwfdavenhancements.so|8c968c6930e44901ef8c6abd6356f2308600d90e
-system_ext/lib64/libwfdclient.so|2d1bf9b010ecfb8532eaf6a12c8bf60f9e8ffe08
-system_ext/lib64/libwfdcommonutils.so|3ae375016a9551e51f26710e8b07d20eeef2b76f
-system_ext/lib64/libwfdconfigutils.so|4d8200cc4c455f54fcbce927f5cabeb7b591f5d0
-system_ext/lib64/libwfddisplayconfig.so|27f5d6e284edf05cc7776e5be010912973000ab9
-system_ext/lib64/libwfdmminterface.so|8d3d493fef797aef2feaab4e09e50250ddf5dc9a
-system_ext/lib64/libwfdmmsink.so|4569ce9941eb5d06db599146ed80b8a32d7cd97f
-system_ext/lib64/libwfdmmsrc_system.so|0cc970954800566baddbf760b153b027940180f5
-system_ext/lib64/libwfdnative.so;SYMLINK=system_ext/priv-app/WfdService/lib/arm64/libwfdnative.so|9513bbbd813dd05fb063d3c9e72640a1bc9156c2|f2918bbd8e4c691299e840863e8cb502a47bb773
-system_ext/lib64/libwfdrtsp.so|1ab4fc5b75d25f551df3593d5856e6f7893a4176
-system_ext/lib64/libwfdservice.so|af0e31f17ed997a5d8bad64cdad486be28cb9f07
-system_ext/lib64/libwfdsinksm.so|cc899b719fa11d844c65908d7fdc18600451324d
-system_ext/lib64/libwfduibcinterface.so|432d54b072d8f1c80409b6e11f4f833ca9576937
-system_ext/lib64/libwfduibcsink.so|d12b05bbcefdff6addc2c31567a656b7540d7489
-system_ext/lib64/libwfduibcsinkinterface.so|a41b4d1fa4307a247b1f059a5b5cdf7f6a645db3
-system_ext/lib64/libwfduibcsrc.so|5be7d282be9ab45297bd030f8e37a45f48aa8677
-system_ext/lib64/libwfduibcsrcinterface.so|0e32acc87c8518e8ebb44f6ef341a2e278e1e7c2
-system_ext/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so|2b2563450ad6a8d46d5648b97f63f87c5d9983ca
-system_ext/lib64/vendor.qti.hardware.wifidisplaysession_aidl-V1-ndk.so|58cd9358df40aa16ddf0e603b736c58588623b9e
-system_ext/priv-app/WfdService/WfdService.apk|b8a1d9f83804d274fab6e09e0607082801207f60
-
-# WiFi Display (vendor)
+# WiFi Display
+system/framework/WfdCommon.jar;BOOT_JAR
+system_ext/bin/wfdservice64
+system_ext/etc/init/wfdservice.rc
+system_ext/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml
+system_ext/etc/seccomp_policy/wfdservice64.policy
+system_ext/etc/wfdconfigsink.xml
+system_ext/lib64/libmmrtpdecoder.so
+system_ext/lib64/libmmrtpencoder.so
+system_ext/lib64/libwfdavenhancements.so
+system_ext/lib64/libwfdclient.so
+system_ext/lib64/libwfdcommonutils.so
+system_ext/lib64/libwfdconfigutils.so
+system_ext/lib64/libwfddisplayconfig.so
+system_ext/lib64/libwfdmminterface.so
+system_ext/lib64/libwfdmmsink.so
+system_ext/lib64/libwfdmmsrc_system.so
+system_ext/lib64/libwfdnative.so;SYMLINK=system_ext/priv-app/WfdService/lib/arm64/libwfdnative.so
+system_ext/lib64/libwfdrtsp.so
+system_ext/lib64/libwfdservice.so
+system_ext/lib64/libwfdsinksm.so
+system_ext/lib64/libwfduibcinterface.so
+system_ext/lib64/libwfduibcsink.so
+system_ext/lib64/libwfduibcsinkinterface.so
+system_ext/lib64/libwfduibcsrc.so
+system_ext/lib64/libwfduibcsrcinterface.so
+system_ext/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so
+system_ext/lib64/vendor.qti.hardware.wifidisplaysession_aidl-V1-ndk.so
+system_ext/priv-app/WfdService/WfdService.apk
 vendor/bin/wfdhdcphalservice
 vendor/bin/wfdvndservice
 vendor/bin/wifidisplayhalservice
