@@ -69,8 +69,10 @@ lib_fixups: lib_fixups_user_type = {
 blob_fixups: blob_fixups_user_type = {
     'odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff': blob_fixup()
         .add_needed('libshims_aidl_fingerprint_v2.oplus.so'),
-    'odm/bin/hw/vendor.oplus.hardware.charger-V6-service': blob_fixup()
+    'odm/bin/hw/vendor.oplus.hardware.charger-V9-service': blob_fixup()
         .add_needed('libbase_shim.so'),
+    'odm/etc/init/init.network.rc': blob_fixup()
+        .regex_replace(r'/\* (Huo\.Chen@SYSTEM\.RF, 2024/09/06, Add for ICC) \*/', r'# \1'),
     'product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml': blob_fixup()
         .regex_replace('/my_product', '/product'),
     'system_ext/lib64/libwfdnative.so': blob_fixup()
