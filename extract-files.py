@@ -67,6 +67,21 @@ lib_fixups: lib_fixups_user_type = {
 }
 
 blob_fixups: blob_fixups_user_type = {
+    (
+        'odm/bin/touchDaemon',
+        'odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff',
+        'vendor/bin/poweropt-service',
+        'vendor/lib64/libaodoptfeature.so',
+        'vendor/lib64/libapengine.so',
+        'vendor/lib64/libdpps.so',
+        'vendor/lib64/liblearningmodule.so',
+        'vendor/lib64/libpowercore.so',
+        'vendor/lib64/libpsmoptfeature.so',
+        'vendor/lib64/libsnapdragoncolor-manager.so',
+        'vendor/lib64/libstandbyfeature.so',
+        'vendor/lib64/libvideooptfeature.so',
+    ): blob_fixup()
+        .replace_needed('libtinyxml2.so', 'libtinyxml2_1.so'),
     'odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff': blob_fixup()
         .add_needed('libshims_aidl_fingerprint_v2.oplus.so'),
     'odm/bin/hw/vendor.oplus.hardware.charger-V6-service': blob_fixup()
