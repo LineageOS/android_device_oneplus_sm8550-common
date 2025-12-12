@@ -15,8 +15,8 @@ vendor/lib64/libadsprpc.so
 vendor/lib64/libloadalgo_stub.so
 
 # ADSP modules
-odm/lib/rfsa/adsp/aiboost/libQnnHtpV73Skel.so;MODULE_SUFFIX=.aiboost
-odm/lib/rfsa/adsp/aiboost/libaiboostubwc_skel.so;MODULE_SUFFIX=.aiboost
+odm/lib/rfsa/adsp/aiboost/libQnnHtpV73Skel.so
+odm/lib/rfsa/adsp/aiboost/libaiboostubwc_skel.so
 odm/lib/rfsa/adsp/capi_v3_oprec.so
 odm/lib/rfsa/adsp/libCalculator_skel.so
 odm/lib/rfsa/adsp/libQnnHtpV73.so
@@ -89,7 +89,7 @@ vendor/lib/rfsa/adsp/bm3a73v08s11n50.bin
 vendor/lib/rfsa/adsp/bm3a73v08s11n51.bin
 vendor/lib/rfsa/adsp/chre_qsh_shim.so
 vendor/lib/rfsa/adsp/libQ6MSFR_manager_skel.so
-vendor/lib/rfsa/adsp/libQnnHtpV73Skel.so;MODULE_SUFFIX=_vendor
+vendor/lib/rfsa/adsp/libQnnHtpV73Skel.so
 vendor/lib/rfsa/adsp/libadsp_jpege_skel.so
 vendor/lib/rfsa/adsp/libapn_dsp_skel.so
 vendor/lib/rfsa/adsp/libbitml_nsp_skel.so
@@ -100,7 +100,7 @@ vendor/lib/rfsa/adsp/libhdr_skel.so
 vendor/lib/rfsa/adsp/libhme_dsp_skel.so
 vendor/lib/rfsa/adsp/libmctfengine_skel.so
 vendor/lib/rfsa/adsp/libosie_skel.so
-vendor/lib/rfsa/adsp/nearby.napp_header;MODULE_SUFFIX=.napp_header
+vendor/lib/rfsa/adsp/nearby.napp_header
 vendor/lib/rfsa/adsp/nearby.so
 
 # ANT+
