@@ -92,6 +92,8 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('libprotobuf-cpp-lite.so', 'libprotobuf-cpp-lite-21.7.so'),
     'system_ext/lib64/libwfdnative.so': blob_fixup()
         .add_needed('libinput_shim.so'),
+    'vendor/bin/hw/android.hardware.contexthub-service.qmi': blob_fixup()
+        .replace_needed('libbase.so', 'libbase-v34.so'),
     ('vendor/bin/hw/android.hardware.security.keymint-service-qti', 'vendor/lib64/libqtikeymint.so'): blob_fixup()
         .add_needed('android.hardware.security.rkp-V3-ndk.so'),
     'vendor/etc/media_codecs_kalama.xml': blob_fixup()
