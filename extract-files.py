@@ -19,9 +19,10 @@ from extract_utils.main import (
 
 namespace_imports = [
     'device/oneplus/sm8550-common',
+    'hardware/oplus',
+    'hardware/pixelworks/interfaces',
     'hardware/qcom-caf/sm8550',
     'hardware/qcom-caf/wlan',
-    'hardware/oplus',
     'vendor/qcom/opensource/commonsys/display',
     'vendor/qcom/opensource/commonsys-intf/display',
     'vendor/qcom/opensource/dataservices',
@@ -49,11 +50,6 @@ lib_fixups: lib_fixups_user_type = {
         'libQnnHtpPrepare',
         'libQnnHtpV73Stub',
         'vendor.oplus.hardware.communicationcenter-V2-ndk',
-        'vendor.pixelworks.hardware.display@1.0',
-        'vendor.pixelworks.hardware.display@1.1',
-        'vendor.pixelworks.hardware.display@1.2',
-        'vendor.pixelworks.hardware.feature@1.0',
-        'vendor.pixelworks.hardware.feature@1.1',
         'vendor.qti.diaghal@1.0',
         'vendor.qti.hardware.dpmservice@1.0',
         'vendor.qti.hardware.qccsyshal@1.0',
