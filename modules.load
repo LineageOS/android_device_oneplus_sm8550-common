@@ -16,6 +16,7 @@ debugcc-kalama.ko
 dmesg_dumper.ko
 dump_reason.ko
 ehset.ko
+explorer.ko
 gh_tlmm_vm_mem_access.ko
 glink_pkt.ko
 glink_probe.ko
