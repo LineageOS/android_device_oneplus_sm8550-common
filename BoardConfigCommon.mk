@@ -135,7 +135,8 @@ TARGET_KERNEL_EXT_MODULES := \
     qcom/opensource/wlan/platform \
     qcom/opensource/wlan/qcacld-3.0/.kiwi_v2 \
     qcom/opensource/bt-kernel \
-    nxp/opensource/driver
+    nxp/opensource/driver \
+    oplus/kernel/explorer
 
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
