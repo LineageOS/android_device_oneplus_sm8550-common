@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2022-2025 The LineageOS Project
+ * Copyright (C) 2022-2026 The LineageOS Project
  * SPDX-License-Identifier: Apache-2.0
  */
 
@@ -25,8 +25,8 @@ void vendor_process_bootenv() {
     auto prjname = std::stoi(GetProperty("ro.boot.prjname", "0"));
 
     switch (hw_region_id) {
-        case 0: // aston IN
-            InitPropertySet("ro.boot.hardware.revision", "IN");
+        case 0:
+            InitPropertySet("ro.boot.hardware.revision", "GLO");
             break;
         case 21:
             if (prjname == 22811 || prjname == 23801) { // aston/salami CN
