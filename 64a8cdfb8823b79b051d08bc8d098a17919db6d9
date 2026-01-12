@@ -16,6 +16,24 @@
       "message": "Before:\n\n\u003e  01-11 14:30:43.660  1902  1902 I [FP_HAL][FingerprintConfig]: lcd type is BOE\n\u003e  01-11 14:30:43.660  1902  1902 I [FP_HAL][FingerprintConfig]: lcd LockState is NULL\n\nAfter:\n\n\u003e  01-11 14:45:36.548  1888  1888 I [FP_HAL][FingerprintConfig]: lcd type is BOE\n\u003e  01-11 14:45:36.548  1888  1888 I [FP_HAL][FingerprintConfig]: lcd LockState is unlocked\n\nDoesn\u0027t seem to make any difference anyway, since this gets set either way:\n\n[vendor.fingerprint.cali]: [1]",
       "revId": "64a8cdfb8823b79b051d08bc8d098a17919db6d9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3264d96d_d43eaeea",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-01-12T01:51:45Z",
+      "side": 1,
+      "message": "\u003e  vendor.fingerprint.cali: 1",
+      "parentUuid": "7986ca39_7699a7cb",
+      "revId": "64a8cdfb8823b79b051d08bc8d098a17919db6d9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
