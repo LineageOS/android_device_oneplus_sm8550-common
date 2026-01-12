@@ -1319,7 +1319,6 @@ vendor/lib64/libqcbor.so
 # Secure element
 odm/bin/hw/vendor.qti.secure_element@1.2-service
 odm/etc/init/vendor.qti.secure_element@1.2-service.rc
-odm/etc/vintf/manifest/manifest_secure_element.xml
 odm/lib64/android.hardware.secure_element@1.0-impl.so
 vendor/lib64/libGPMTEEC_vendor.so
 vendor/lib64/libGPTEE_vendor.so
