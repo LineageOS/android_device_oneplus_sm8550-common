@@ -22,6 +22,30 @@
       },
       "revId": "5b8bf91a0a4d8f355abac1e4962cbd0ace199018",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5352129f_04c19566",
+        "filename": "overlay/FrameworksResTarget/res/values/config.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-01-23T08:03:40Z",
+      "side": 1,
+      "message": "No.",
+      "parentUuid": "a59093f6_743008a5",
+      "range": {
+        "startLine": 3,
+        "startChar": 5,
+        "endLine": 4,
+        "endChar": 40
+      },
+      "revId": "5b8bf91a0a4d8f355abac1e4962cbd0ace199018",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
