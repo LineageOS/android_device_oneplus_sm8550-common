@@ -29,10 +29,6 @@ namespace_imports = [
 ]
 
 
-def lib_fixup_odm_suffix(lib: str, partition: str, *args, **kwargs):
-    return f'{lib}_{partition}' if partition == 'odm' else None
-
-
 def lib_fixup_vendor_suffix(lib: str, partition: str, *args, **kwargs):
     return f'{lib}_{partition}' if partition == 'vendor' else None
 
@@ -40,15 +36,13 @@ def lib_fixup_vendor_suffix(lib: str, partition: str, *args, **kwargs):
 lib_fixups: lib_fixups_user_type = {
     **lib_fixups,
     (
-        'libpwirisfeature',
-        'libpwirishalwrapper',
-    ): lib_fixup_odm_suffix,
-    (
         'com.qualcomm.qti.dpm.api@1.0',
         'libQnnCpu',
         'libQnnHtp',
         'libQnnHtpPrepare',
         'libQnnHtpV73Stub',
+        'libpwirisfeature',
+        'libpwirishalwrapper',
         'vendor.oplus.hardware.communicationcenter-V2-ndk',
         'vendor.qti.diaghal@1.0',
         'vendor.qti.hardware.dpmservice@1.0',
