@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c95e536c_7122dc5c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2026-02-18T09:37:46Z",
+      "side": 1,
+      "message": "fyi, this doesn\u0027t seem to work on AOSP and with some devices (supposedly quite a few cars with android auto, and rarely regular headphones) it breaks bluetooth audio calls (for me on xiaomi sm8450 and supposedly more devices, including sm8550+)",
+      "revId": "e427cd740b56323ec9e003431aa5fe237141d09b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
