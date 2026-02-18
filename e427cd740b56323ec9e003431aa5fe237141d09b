@@ -16,6 +16,24 @@
       "message": "fyi, this doesn\u0027t seem to work on AOSP and with some devices (supposedly quite a few cars with android auto, and rarely regular headphones) it breaks bluetooth audio calls (for me on xiaomi sm8450 and supposedly more devices, including sm8550+)",
       "revId": "e427cd740b56323ec9e003431aa5fe237141d09b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3072fbd1_6fe61e63",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-02-18T09:46:36Z",
+      "side": 1,
+      "message": "Thanks for the heads-up, but this whole chain is just WIP. BLE audio just doesn\u0027t work on OnePlus sm8550 or sm8750.\n\nBut as a sidenote, this prop in particular is set in our sm8750 common tree and I didn\u0027t face any issues using BT calls in Android Auto.",
+      "parentUuid": "c95e536c_7122dc5c",
+      "revId": "e427cd740b56323ec9e003431aa5fe237141d09b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
