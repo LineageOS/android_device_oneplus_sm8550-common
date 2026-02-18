@@ -34,6 +34,24 @@
       "parentUuid": "c95e536c_7122dc5c",
       "revId": "e427cd740b56323ec9e003431aa5fe237141d09b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "24f38a01_375c7839",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2026-02-18T09:58:02Z",
+      "side": 1,
+      "message": "The one who found out that aptx voice is the culprit of the issue actually worked on oneplus sm8750 https://github.com/DerpFest-Devices/device_oneplus_sm8750-common/commit/5156130befcd76052590161559c0fdf8425fe42c\n\nTo reproduce the issue, the other device needs to support aptx voice. According to my users several volkswagen and ford cars are affected.",
+      "parentUuid": "3072fbd1_6fe61e63",
+      "revId": "e427cd740b56323ec9e003431aa5fe237141d09b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
