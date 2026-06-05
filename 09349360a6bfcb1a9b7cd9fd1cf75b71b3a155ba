@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3c2053ee_2a1b0752",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 27025
+      },
+      "writtenOn": "2026-06-05T16:39:19Z",
+      "side": 1,
+      "message": "Is this required on oplus kalama? I needed for marble where modem used to crash sometimes during boot causing an apexd rollback and xiaomi had it in their init.target.rc with a comment\nPhone2 was fine",
+      "revId": "09349360a6bfcb1a9b7cd9fd1cf75b71b3a155ba",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
