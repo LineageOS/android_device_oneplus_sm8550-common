@@ -16,6 +16,24 @@
       "message": "Is this required on oplus kalama? I needed for marble where modem used to crash sometimes during boot causing an apexd rollback and xiaomi had it in their init.target.rc with a comment\nPhone2 was fine",
       "revId": "09349360a6bfcb1a9b7cd9fd1cf75b71b3a155ba",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bdf1ecbe_b0c28ce1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32811
+      },
+      "writtenOn": "2026-06-05T19:06:18Z",
+      "side": 1,
+      "message": "I got reports of devices randomly ending up in memorydump, logs suggest its WLAN subsystem crashing due to wlan firmware(?). And I\u0027d say it\u0027s random because only a handful of users reported it, while it has never happened to me or my testers. Same users who report the crash also sometimes go days without it.",
+      "parentUuid": "3c2053ee_2a1b0752",
+      "revId": "09349360a6bfcb1a9b7cd9fd1cf75b71b3a155ba",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
