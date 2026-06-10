@@ -52,6 +52,23 @@
       "parentUuid": "bdf1ecbe_b0c28ce1",
       "revId": "09349360a6bfcb1a9b7cd9fd1cf75b71b3a155ba",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a1e5bffc_dd706ba9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-06-10T15:11:12Z",
+      "side": 1,
+      "message": "Can\u0027t test myself, but I am fine with it.",
+      "revId": "09349360a6bfcb1a9b7cd9fd1cf75b71b3a155ba",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
