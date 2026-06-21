@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b1e75d1f_cb371080",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 6360
+      },
+      "writtenOn": "2026-06-21T04:21:28Z",
+      "side": 1,
+      "message": "Fails on aston: \n\nerror: hardware/oplus/interfaces/Android.bp:822:1: module \"vendor.oplus.hardware.commondcs-V1-ndk_platform\" variant \"android_vendor_arm64_armv8-2a-dotprod\": partition is different: system_ext(vendor.oplus.hardware.commondcs-V1-ndk\n_platform) !\u003d vendor(prebuilt_vendor.oplus.hardware.commondcs-V1-ndk_platform)\n09:35:30 soong bootstrap failed with: exit status 1",
+      "revId": "d5355dbfae379e5ce03a19eed895b4c92cb49764",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
