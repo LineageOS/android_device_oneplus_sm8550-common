@@ -870,9 +870,6 @@ vendor/etc/permissions/vendor.qti.hardware.factory.xml
 vendor/lib64/vendor.qti.hardware.factory@1.0.so
 vendor/lib64/vendor.qti.hardware.factory@1.1.so
 
-# Memory
-vendor/lib64/libvmmem.so
-
 # Misc
 odm/etc/init/init.oppo.reserve.rc
 
