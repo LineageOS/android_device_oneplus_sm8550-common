@@ -63,6 +63,9 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/lib64/libsnapdragoncolor-manager.so'
     ): blob_fixup()
         .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
+    'odm/bin/hw/vendor.oplus.hardware.biometrics.face@1.0-service': blob_fixup()
+        .add_needed('libbase_shim.so')
+        .clear_symbol_version('_ZN7android4base4TrimERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE'),
     'odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff': blob_fixup()
         .add_needed('libshims_aidl_fingerprint_v2.oplus.so'),
     'odm/bin/hw/vendor.oplus.hardware.charger-V11-service': blob_fixup()
