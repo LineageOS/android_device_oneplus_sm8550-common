@@ -22,6 +22,30 @@
       },
       "revId": "5b007f40c3c6851c643555a1a4d26945dfb0d022",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "334c4e5b_56ea69e0",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 9
+      },
+      "lineNbr": 527,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-09-28T23:02:54Z",
+      "side": 1,
+      "message": "No, old vendor. ABI compat broke.",
+      "parentUuid": "f458fe0a_d5f0ed3e",
+      "range": {
+        "startLine": 527,
+        "startChar": 13,
+        "endLine": 527,
+        "endChar": 33
+      },
+      "revId": "5b007f40c3c6851c643555a1a4d26945dfb0d022",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
