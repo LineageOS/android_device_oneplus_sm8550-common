@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f458fe0a_d5f0ed3e",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 9
+      },
+      "lineNbr": 527,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2026-09-28T22:58:05Z",
+      "side": 1,
+      "message": "This doesn\u0027t work from source?",
+      "range": {
+        "startLine": 527,
+        "startChar": 13,
+        "endLine": 527,
+        "endChar": 33
+      },
+      "revId": "5b007f40c3c6851c643555a1a4d26945dfb0d022",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
