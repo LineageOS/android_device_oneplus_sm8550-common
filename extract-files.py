@@ -72,6 +72,21 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libbase_shim.so'),
     'odm/etc/init/init.network.rc': blob_fixup()
         .regex_replace(r'/\* (Huo\.Chen@SYSTEM\.RF, 2024/09/06, Add for ICC) \*/', r'# \1'),
+    (
+        'odm/lib64/c2.dolby.client.so',
+        'vendor/lib64/libqcodec2_core.so'
+    ): blob_fixup()
+        .add_needed('libcodec2_shim.so'),
+    (
+        'odm/lib64/c2.dolby.hevc.dec.so',
+        'odm/lib64/c2.dolby.hevc.sec.dec.so',
+    ): blob_fixup()
+        .add_needed('libcodec2_shim.so')
+        .replace_needed('libstagefright_foundation.so', 'libstagefright_foundation-v33.so')
+        # GraphicBuffer grew from 0x100 to 0xd30 bytes with DependencyMonitor.
+        .sig_replace('00 20 80 52 F1 8B 00 94 A4 0F 7E 29 A5 C3 5E B8', '00 A6 81 52'),
+    'odm/lib64/libdolbydecoderprocessor.so': blob_fixup()
+        .replace_needed('libstagefright_foundation.so', 'libstagefright_foundation-v33.so'),
     'product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml': blob_fixup()
         .regex_replace('/my_product', '/product'),
     'system/framework/WfdCommon.jar': blob_fixup()
@@ -93,8 +108,6 @@ blob_fixups: blob_fixups_user_type = {
         .regex_replace('media_codecs_vendor_audio', 'media_codecs_dolby_vision'),
     'vendor/etc/seccomp_policy/qwesd@2.0.policy': blob_fixup()
         .add_line_if_missing('pipe2: 1'),
-    'vendor/lib64/libqcodec2_core.so': blob_fixup()
-        .add_needed('libcodec2_shim.so'),
     'vendor/lib64/vendor.libdpmframework.so': blob_fixup()
         .add_needed('libhidlbase_shim.so'),
 }  # fmt: skip
