@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "12392943_b002dcfb",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 5
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-10-19T17:39:16Z",
+      "side": 1,
+      "message": "Don\u0027t forget the \"Fixes: ...\"",
+      "revId": "455b8c67efe35811d6f5940ce96553f6a698d9d5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "44c2b34c_c956efe8",
+        "filename": "common.mk",
+        "patchSetId": 5
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-10-19T17:39:16Z",
+      "side": 1,
+      "message": "Move to the audio section",
+      "revId": "455b8c67efe35811d6f5940ce96553f6a698d9d5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
