@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "28103160_026ae306",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 7
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 38138
+      },
+      "writtenOn": "2026-10-19T18:50:59Z",
+      "side": 0,
+      "message": "What\u0027s with libtfa98xx?\nOn sm8450 with OSS libar-pal it breaks MMAP ULL playback - audio does play but it is almost silent\nAs far as I reversed, oplus does it\u0027s own amplification via TFA98XX amplification setting during MMAP ULL playback, wich does libar-pal by dlopening libtfa98xx\nTest MMAP ULL? Does it work as were before?",
+      "revId": "d62700d3a775479e46bd8882e29bb8b6c815d1e5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
