@@ -16,6 +16,29 @@
       "message": "If related, add this to the commit message:\n\n\"Fixes: https://github.com/LineageOS/issues/issues/851\"",
       "revId": "d62700d3a775479e46bd8882e29bb8b6c815d1e5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e2e70719_5b7288cb",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 4
+      },
+      "lineNbr": 149,
+      "author": {
+        "id": 35315
+      },
+      "writtenOn": "2026-10-19T16:26:53Z",
+      "side": 1,
+      "message": "why don\u0027t we copy it from `hardware/qcom-caf/sm8550/audio/primary-hal/configs/common/bluetooth_qti_audio_policy_configuration.xml`\n* on mi8550 devices this is exactly the same as the configuration from vendor",
+      "range": {
+        "startLine": 149,
+        "startChar": 0,
+        "endLine": 149,
+        "endChar": 55
+      },
+      "revId": "d62700d3a775479e46bd8882e29bb8b6c815d1e5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
