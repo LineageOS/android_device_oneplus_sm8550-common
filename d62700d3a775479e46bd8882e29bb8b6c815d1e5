@@ -34,6 +34,24 @@
       "parentUuid": "28103160_026ae306",
       "revId": "d62700d3a775479e46bd8882e29bb8b6c815d1e5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "076f020b_c8107b51",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 7
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 38138
+      },
+      "writtenOn": "2026-10-25T20:43:14Z",
+      "side": 0,
+      "message": "Ok, what about microphone recording? On sm8450/senna it quiet almost to the ground, I didn\u0027t reversed  this enough to understand what it happening, but switching to proprietary libar-pal fixed it (with audio config remained as is).",
+      "parentUuid": "db39f1ac_75739097",
+      "revId": "d62700d3a775479e46bd8882e29bb8b6c815d1e5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
