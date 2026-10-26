@@ -52,6 +52,24 @@
       "parentUuid": "db39f1ac_75739097",
       "revId": "d62700d3a775479e46bd8882e29bb8b6c815d1e5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bcc7f162_032219af",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 7
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 32811
+      },
+      "writtenOn": "2026-10-26T21:12:49Z",
+      "side": 0,
+      "message": "I have no issues on aston (sm8550) and udon (sm8450)",
+      "parentUuid": "076f020b_c8107b51",
+      "revId": "d62700d3a775479e46bd8882e29bb8b6c815d1e5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
