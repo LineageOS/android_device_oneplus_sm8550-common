@@ -70,6 +70,24 @@
       "parentUuid": "076f020b_c8107b51",
       "revId": "d62700d3a775479e46bd8882e29bb8b6c815d1e5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "298b398f_dcae9a80",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 7
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 32811
+      },
+      "writtenOn": "2026-10-26T21:16:11Z",
+      "side": 0,
+      "message": "sm8475*",
+      "parentUuid": "bcc7f162_032219af",
+      "revId": "d62700d3a775479e46bd8882e29bb8b6c815d1e5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
