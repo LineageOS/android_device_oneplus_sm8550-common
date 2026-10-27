@@ -88,6 +88,24 @@
       "parentUuid": "bcc7f162_032219af",
       "revId": "d62700d3a775479e46bd8882e29bb8b6c815d1e5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "91c3e30d_ab22d569",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 7
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 38138
+      },
+      "writtenOn": "2026-10-27T08:29:44Z",
+      "side": 0,
+      "message": "Wait, you are developing lineage for udon? Can you contact me directly in some way (I\u0027m developing sm8450 common for submission into official devices)",
+      "parentUuid": "298b398f_dcae9a80",
+      "revId": "d62700d3a775479e46bd8882e29bb8b6c815d1e5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
